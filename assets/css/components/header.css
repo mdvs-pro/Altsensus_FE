@@ -1,61 +1,60 @@
 .header {
-    height: 6rem;
+  height: 6rem;
 }
 
 .header__wrapper {
   display: flex;
-  height: 100%;
   justify-content: space-between;
   align-items: center;
   padding: 0.7rem 0;
+  height: 100%;
 }
 
 .header__logo-wrapper {
-    width: 15.8rem;
-    height: 4.6rem;
+  width: 15.8rem;
+  height: 4.6rem;
 }
 .header__logo-wrapper img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .header__nav ul {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .header__nav ul li {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    justify-self: center;
-    align-items: center;
-    width: 15rem;
-    list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  width: 15rem;
+  list-style: none;
+  text-align: center;
 }
 
 .header__nav ul li a {
-    font-size: 1.5rem;
-    text-decoration: none;
-    color: #1a1d26;
-    font-weight: 700;
-
-    transition: all 0.1s ease;
+  transition: all 0.1s ease;
+  color: #1a1d26;
+  font-weight: 700;
+  font-size: 1.5rem;
+  text-decoration: none;
 }
 
 .header__nav ul li a:hover {
-    text-decoration: underline;
-    color: #ff4f2f;
-} 
+  color: #ff4f2f;
+  text-decoration: underline;
+}
 
 .header__button-wrapper {
-    width: 14.9rem;
-    height: 4rem;
+  width: 14.9rem;
+  height: 4rem;
 }
 
 .header__button-wrapper .btn {
-    font-weight: bold;
-    font-size: 1.6rem;
+  font-weight: bold;
+  font-size: 1.6rem;
 }

@@ -1,15 +1,15 @@
 :root {
-    --primary-color: #1A1D26;
-    --accent-color: #FF4F2F;
-    
-    /* Typography */
-    --font-primary: 'Graphik', sans-serif;
-    --font-secondary: 'General Sans', sans-serif;
-    /* --font-size-base: 1.6rem; */
-    --font-size-sm: 1.5rem;
-    --font-size-md: 2rem;
-    --font-size-lg: 2.4rem;
-    --font-size-xl: 3.3rem;
-    --font-size-xxl: 6.4rem;
-    --line-height: 1.5;
+  --primary-color: #1a1d26;
+  --accent-color: #ff4f2f;
+
+  /* Typography */
+  --font-primary: "Graphik", sans-serif;
+  --font-secondary: "General Sans", sans-serif;
+  /* --font-size-base: 1.6rem; */
+  --font-size-sm: 1.5rem;
+  --font-size-md: 2rem;
+  --font-size-lg: 2.4rem;
+  --font-size-xl: 3.3rem;
+  --font-size-xxl: 6.4rem;
+  --line-height: 1.5;
 }
