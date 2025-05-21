@@ -37,6 +37,10 @@ body {
   font-family: var(--font-primary);
 }
 
+* {
+  box-sizing: border-box;
+}
+
 /* @media (min-width: 2000px) {
     html {
         font-size: 0.625vw;
@@ -52,4 +56,26 @@ ul {
   margin: 0;
   padding: 0;
   list-style: none;
+}
+
+.height100 {
+  height: 100%;
+}
+
+.maxWidth100,
+.maxWidth100 * {
+  max-width: 100%;
+}
+
+.borderBottom {
+  border-bottom: 0.1rem solid var(--border-color);
+}
+.borderTop {
+  border-top: 0.1rem solid var(--border-color);
+}
+.borderLeft {
+  border-left: 0.1rem solid var(--border-color);
+}
+.borderRight {
+  border-right: 0.1rem solid var(--border-color);
 }
