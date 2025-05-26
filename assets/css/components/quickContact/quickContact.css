@@ -1,0 +1,79 @@
+.quick-contact {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.quick-contact .container {
+  border-radius: 2.5rem;
+  background-color: var(--primary-color);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.quick-contact__input-wrapper {
+  position: relative;
+  border-radius: 1rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.quick-contact__input-wrapper.error {
+  border: 0.1rem solid var(--accent-color);
+}
+
+.quick-contact__input-wrapper form {
+  display: flex;
+  position: relative;
+}
+
+.quick-contact__input-wrapper form * {
+  display: block;
+}
+
+.quick-contact__input-wrapper input {
+  flex: 1 1 auto;
+  border: none;
+  padding: 1.6rem 3rem;
+  color: var(--primary-color);
+  font-size: 1.8rem;
+}
+.quick-contact__input-wrapper input:focus {
+  outline: none;
+  border: none;
+}
+
+.quick-contact__input-wrapper input::placeholder {
+  color: #cacaca;
+}
+
+.quick-contact__input-wrapper button {
+  flex: 0 0;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border: none;
+  border-left: 0.1rem solid var(--accent-color);
+  background: white;
+  padding-top: 1.6rem;
+  padding-right: 2.7rem;
+  padding-bottom: 1.6rem;
+  padding-left: 2.4rem;
+  color: var(--primary-color);
+  font-size: 2.2rem;
+}
+
+.quick-contact__input-wrapper button:hover {
+  background: var(--accent-color);
+  color: white;
+}
+
+.quick-contact__error-message {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0.5rem;
+}
+
+.quick-contact__error-message * {
+  margin-top: 0.5rem;
+  color: var(--accent-color);
+  font-size: 1.4rem;
+}

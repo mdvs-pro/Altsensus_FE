@@ -32,9 +32,46 @@
   font-size: var(--font-size-xl);
 }
 
+.text-22,
+.text-22 > * {
+  font-size: var(--font-size-22);
+}
+
+.text-50,
+.text-50 > * {
+  font-size: var(--font-size-50);
+}
+
+.text-64,
+.text-64 > * {
+  font-size: var(--font-size-64);
+}
+
 .text-xxl,
 .text-xxl > * {
   font-size: var(--font-size-xxl);
+}
+
+@media (max-width: 768px) {
+  .text-sm,
+  .text-sm > * {
+    font-size: calc(var(--font-size-sm) * 0.75);
+  }
+
+  .text-md,
+  .text-md > * {
+    font-size: 1.2rem;
+  }
+
+  .text-lg,
+  .text-lg > * {
+    font-size: 1.2rem;
+  }
+
+  .text-xl,
+  .text-xl > * {
+    font-size: calc(var(--font-size-xl) * 0.9);
+  }
 }
 
 /* Font Weights */
@@ -93,6 +130,22 @@
 .text-right,
 .text-right * {
   text-align: right;
+}
+
+@media (max-width: 768px) {
+  .text-sm-right,
+  .text-sm-right * {
+    text-align: center;
+  }
+
+  .text-sm-left,
+  .text-sm-left * {
+    text-align: center;
+  }
+  .text-sm-center,
+  .text-sm-center * {
+    text-align: center;
+  }
 }
 
 .text-justify,
@@ -263,7 +316,7 @@
 
 /* Responsive Text Classes */
 @media (max-width: 768px) {
-  .heading-1,
+  /* .heading-1,
   .heading-1 > * {
     font-size: calc(var(--font-size-xxl) * 0.75);
   }
@@ -276,5 +329,33 @@
   .heading-3,
   .heading-3 > * {
     font-size: calc(var(--font-size-lg) * 0.85);
-  }
+  } */
+}
+
+/* Text Wrap */
+.text-wrap-balance,
+.text-wrap-balance * {
+  text-wrap: balance;
+}
+
+.text-wrap-stable,
+.text-wrap-stable * {
+  text-wrap: stable;
+}
+
+.text-wrap-pretty,
+.text-wrap-pretty * {
+  text-wrap: pretty;
+}
+
+/* Special class for twitter-style card with second line containing more text */
+.twitter-text-style p:first-of-type {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 70%;
+}
+
+.text-wrap-normal,
+.text-wrap-normal * {
+  text-wrap: normal;
 }

@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #1a1d26;
+  --primary-color: rgb(26, 29, 38);
   --accent-color: #ff4f2f;
 
   /* Typography */
@@ -10,8 +10,13 @@
   --font-size-md: 2rem;
   --font-size-lg: 2.4rem;
   --font-size-xl: 3.3rem;
-  --font-size-xxl: 6.4rem;
+  --font-size-22: 2.2rem;
+  --font-size-50: 5rem;
+  --font-size-64: 6.4rem;
+  --font-size-xxl: 10.64rem;
   --line-height: 1.5;
 
   --border-color: rgba(26, 29, 38, 0.5);
+  --gradient-color-1: rgb(255, 79, 47, 1);
+  --gradient-color-2: rgb(255, 79, 47, 0);
 }

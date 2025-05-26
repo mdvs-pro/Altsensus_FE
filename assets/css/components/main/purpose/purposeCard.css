@@ -1,0 +1,83 @@
+.purpose-card {
+  position: relative;
+  margin-top: 5.7rem;
+  margin-bottom: 4.5rem;
+}
+
+.purpose-card__wrapper {
+  position: relative;
+  border-radius: 1rem;
+  background-color: rgba(26, 29, 38, 1);
+  padding: 3.5rem 4.9rem 3.9rem 3.8rem;
+}
+
+.purpose-card__background-1 {
+  position: absolute;
+  top: 3.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1.2rem;
+  background-color: #434753;
+  width: 90%;
+  height: 100%;
+}
+
+.purpose-card__background-2 {
+  position: absolute;
+  top: 6rem;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 1.4rem;
+  background-color: #72747b;
+  width: 80%;
+  height: 100%;
+}
+
+.purpose-card__wrapper {
+  display: flex;
+}
+
+.purpose-card__logo {
+  flex: 0 0 12.1rem;
+  margin-right: 3.7rem;
+  border-radius: 1.2rem;
+
+  background-color: #fff;
+  padding: 2.3rem;
+  height: 12.1rem;
+}
+
+.purpose-card__logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.purpose-card__text {
+  flex: 1 1 auto;
+}
+
+.purpose-card__title-wrapper {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 1.1rem;
+}
+
+.purpose-card__time span {
+  color: #72747b;
+  font-size: 1.4rem;
+}
+
+.purpose-card__shadow {
+  margin-top: 14rem;
+  margin-right: auto;
+  margin-left: auto;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(26, 29, 38, 0.25) 0%,
+    rgba(26, 29, 38, 0) 60%
+  );
+  width: 80%;
+  height: 5.4rem;
+}

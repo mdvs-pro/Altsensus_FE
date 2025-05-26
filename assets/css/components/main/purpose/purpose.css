@@ -1,0 +1,28 @@
+@import url("./purposeCard.css");
+
+.purpose__card-container {
+}
+
+.purpose__card-col {
+  padding-top: 8.5rem;
+}
+
+.purpose__title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.purpose__current-strategy {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.purpose__current-strategy a {
+  transition: color 0.1s ease;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.purpose__current-strategy a:hover {
+  color: var(--accent-color);
+}
