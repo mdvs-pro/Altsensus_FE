@@ -1,11 +1,57 @@
 .perfomance__title {
   margin-top: 6rem;
   margin-bottom: 6rem;
+  font-size: 10.64rem;
+}
+
+@media (max-width: 576px) {
+  .perfomance .container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .perfomance__title {
+    margin: 0;
+    background-color: var(--primary-color);
+    padding: 2.1rem 0;
+    padding-top: 2.1rem;
+  }
+}
+
+.perfomance__title h2 {
+  font-size: 10.64rem;
+}
+
+@media (max-width: 576px) {
+  .perfomance__title {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .perfomance__title h2 {
+    font-size: 1.8rem;
+  }
 }
 
 .perfomance__description {
-  margin-top: 2rem;
+  margin-top: 1rem;
   margin-bottom: 7rem;
+}
+
+@media (max-width: 576px) {
+  .perfomance__waiting * {
+    padding: 0 1.5rem;
+    font-size: 1.4rem;
+  }
+
+  .perfomance__description {
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
+  }
+
+  .perfomance__description * {
+    font-size: 1rem;
+  }
 }
 
 .perfomance__statistic {
@@ -14,4 +60,17 @@
 
 .perfomance__statistic-title {
   margin-bottom: 1.6rem;
+}
+
+.perfomance__statistic-title * {
+  font-size: 10.64rem;
+}
+
+@media (max-width: 576px) {
+  .perfomance__statistic {
+    margin-bottom: 6rem;
+  }
+  .perfomance__statistic-title * {
+    font-size: 3.2rem;
+  }
 }

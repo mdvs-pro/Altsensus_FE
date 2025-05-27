@@ -25,3 +25,46 @@
 .form-block__text-item p:first-child {
   margin-bottom: 1.7rem;
 }
+
+.form-block__text-item-title,
+.form-block__text-item-title * {
+  font-size: 2.4rem;
+}
+
+.form-block__text-item-content,
+.form-block__text-item-content * {
+  font-size: 2.2rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 576px) {
+  .form-block {
+    padding-top: 3rem;
+    padding-bottom: 2.9rem;
+  }
+
+  .form-block__text {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .form-block__text-item {
+    padding: 2.2rem;
+    width: 70%;
+  }
+
+  .form-block__text-item:first-child {
+    align-self: flex-end;
+    width: 60%;
+  }
+
+  .form-block__text-item-title,
+  .form-block__text-item-title * {
+    font-size: 1.4rem;
+  }
+
+  .form-block__text-item-content,
+  .form-block__text-item-content * {
+    font-size: 1.2rem;
+  }
+}

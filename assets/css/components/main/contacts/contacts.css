@@ -24,3 +24,13 @@
 .contacts__button:hover a {
   color: #fff;
 }
+
+@media (max-width: 576px) {
+  .contacts__button {
+    margin-bottom: 3rem;
+    height: 4.5rem;
+  }
+  .contacts__button a {
+    font-size: 1.2rem;
+  }
+}

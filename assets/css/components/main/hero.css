@@ -7,7 +7,7 @@
   padding-bottom: 13.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .hero {
     background-image: none;
     padding: 0;
@@ -19,7 +19,7 @@
   height: calc(100vh - 6rem - 12.9rem);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .hero__main {
     background-image: url("../../../../images/heroMobile.png");
     background-position: center 0;
@@ -38,7 +38,7 @@
   font-family: var(--font-secondary);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .hero h1 {
     font-size: 5.9rem;
   }
@@ -51,7 +51,7 @@
   margin-bottom: 6.8rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .hero__subtitle {
     margin-top: 0;
     margin-bottom: 0;
@@ -62,7 +62,7 @@
   align-items: end;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .hero__subtitle-wrapper {
     flex-direction: column;
     justify-content: center;
@@ -81,7 +81,7 @@
   font-family: var(--font-secondary);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .hero__subtitle h2 {
     margin-bottom: 1.7rem;
     font-size: 3.3rem;
@@ -100,7 +100,7 @@
   letter-spacing: 0.05rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .hero__subtitle p {
     margin-left: 0;
     padding-bottom: 0;
@@ -114,7 +114,7 @@
   margin-top: 3.7rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .hero__button-wrapper {
     position: absolute;
     bottom: 10rem;
@@ -126,7 +126,7 @@
   padding: 1.8rem 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .hero__story {
     padding-top: 3rem;
     padding-bottom: 3rem;
@@ -149,7 +149,7 @@
   padding-bottom: 8rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .hero__srory-wrapper {
     padding: 4rem 0 6rem;
   }
@@ -165,7 +165,7 @@
   letter-spacing: -0.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .hero__story-title h2 {
     margin-top: 0;
     margin-bottom: 2.5rem;
@@ -184,7 +184,7 @@
   height: auto;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
   .hero__story-image-wrapper {
     margin-top: 5rem;
     margin-bottom: 5rem;

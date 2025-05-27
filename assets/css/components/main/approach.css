@@ -3,14 +3,31 @@
   padding: 5rem 0;
 }
 
+@media (max-width: 575px) {
+  .approach__header {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+}
+
 .approach__title {
   flex: 0 0 auto;
 
   margin-right: 10rem;
 }
 
+@media (max-width: 575px) {
+  .approach__title {
+    margin-right: 2rem;
+  }
+}
+
 .approach__header-text {
   flex: 1 1 auto;
+}
+
+.approach__header-text * {
+  margin-bottom: 1.5rem;
 }
 
 .approach__title h2 {
@@ -20,20 +37,55 @@
   font-size: 10.6rem;
 }
 
+@media (max-width: 575px) {
+  .approach__title h2 {
+    font-size: 1.6rem;
+  }
+}
+
 .approach__content-title {
   margin-top: 10rem;
   margin-bottom: 5rem;
 }
 
+@media (max-width: 575px) {
+  .approach__content-title {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
 .approach__content-title h3 {
   margin: 0;
-  margin-bottom: 10rem;
   font-weight: 400;
+}
+
+@media (max-width: 575px) {
+  .approach__invest-process-wrapper {
+    display: flex;
+  }
 }
 
 .approach__line img {
   width: 103%;
   object-fit: contain;
+}
+
+@media (max-width: 575px) {
+  .approach__line {
+    position: relative;
+    width: 5rem;
+    height: 70.3rem;
+  }
+  .approach__line img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%) rotate(90deg);
+    width: 72.3rem;
+    height: 2.2rem;
+    object-fit: contain;
+  }
 }
 
 .approach__process-icon img {
@@ -51,22 +103,39 @@
   font-size: 2rem;
 }
 
+@media (max-width: 575px) {
+  .approach__process-icon img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+  }
+
+  .approach__process-text b {
+    font-size: 1.4rem;
+  }
+  .approach__process-text p {
+    font-size: 1.2rem;
+  }
+
+  .approach__invest-item--analyz {
+    margin-top: 30%;
+  }
+
+  .approach__invest-item--invest {
+    margin-top: 0%;
+  }
+
+  .approach__invest-item--intelligent {
+    margin-bottom: 60%;
+  }
+}
+
 .approach__card-container {
   margin-top: 14rem;
 }
 
 .approach__card {
   position: relative;
-  /* padding-bottom: 4rem; */
-  /* border-right: 0.1rem solid;
-  border-left: 0.1rem solid;
-  border-image: linear-gradient(
-    to top,
-    var(--border-color) 0%,
-    var(--border-color) 10%,
-    rgba(0, 0, 0, 0) 11%
-  );
-  border-image-slice: 1; */
 }
 
 .approach__card-background {
@@ -84,19 +153,65 @@
 }
 
 .approach__card-wrapper {
+  display: flex;
   position: relative;
+  justify-content: space-between;
+  align-items: flex-end;
   border-radius: 2.5rem;
-  background-image: url("/images/approachCard.png");
-  background-size: cover;
+  /* background-image: url("/images/approachCard.png");
+  background-size: cover; */
   padding: 4.5rem;
   aspect-ratio: 2.9 / 1;
   height: auto;
+  height: 100%;
+}
+
+.approach__card-image-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 2.5rem;
+  background-image: url("/images/approachCard.png");
+  background-position: top left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 575px) {
+  .approach__card-image-background {
+    transform: scale(-1, 1);
+  }
+}
+
+@media (max-width: 575px) {
+  .approach__card-wrapper {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 2rem;
+    aspect-ratio: 1 / 1;
+  }
 }
 
 .approach__card-title {
   width: 60%;
   font-weight: 400;
   font-size: 5rem;
+}
+
+@media (max-width: 575px) {
+  .approach__card-title {
+    width: 70%;
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .approach__card-logo img {
+    width: 9.8rem;
+    height: 2.8rem;
+  }
 }
 
 .approach__services {
@@ -106,6 +221,12 @@
   padding-bottom: 14rem;
   width: 100%;
   overflow: hidden;
+}
+
+@media (max-width: 575px) {
+  .approach__services {
+    padding-bottom: 3rem;
+  }
 }
 
 .approach__services .container {
@@ -119,6 +240,24 @@
 
 .approach__services-item > p {
   padding: 3rem;
+  font-size: 2.4rem;
+}
+
+@media (max-width: 575px) {
+  .approach__services-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10rem;
+  }
+
+  .approach__services-item > p {
+    display: block;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+    line-height: 130%;
+    text-wrap: balance;
+  }
 }
 
 .approach__service-item-divider {

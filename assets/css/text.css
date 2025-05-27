@@ -52,7 +52,7 @@
   font-size: var(--font-size-xxl);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 575px) {
   .text-sm,
   .text-sm > * {
     font-size: calc(var(--font-size-sm) * 0.75);

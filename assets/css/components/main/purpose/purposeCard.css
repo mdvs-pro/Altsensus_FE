@@ -11,26 +11,31 @@
   padding: 3.5rem 4.9rem 3.9rem 3.8rem;
 }
 
-.purpose-card__background-1 {
+.purpose-card__background {
   position: absolute;
-  top: 3.5rem;
   left: 50%;
   transform: translateX(-50%);
+  height: 100%;
+}
+
+.purpose-card__background--1 {
+  position: absolute;
+  top: 10%;
+
   border-radius: 1.2rem;
   background-color: #434753;
   width: 90%;
   height: 100%;
 }
 
-.purpose-card__background-2 {
+.purpose-card__background--2 {
   position: absolute;
-  top: 6rem;
+  top: 20%;
   left: 50%;
   transform: translateX(-50%);
   border-radius: 1.4rem;
   background-color: #72747b;
   width: 80%;
-  height: 100%;
 }
 
 .purpose-card__wrapper {
@@ -64,9 +69,17 @@
   margin-bottom: 1.1rem;
 }
 
-.purpose-card__time span {
+.purpose-card__title * {
+  font-size: 2.2rem;
+}
+
+.purpose-card__time * {
   color: #72747b;
   font-size: 1.4rem;
+}
+
+.purpose-card__description {
+  font-size: 2.2rem;
 }
 
 .purpose-card__shadow {
@@ -80,4 +93,47 @@
   );
   width: 80%;
   height: 5.4rem;
+}
+
+@media (max-width: 576px) {
+  .purpose-card {
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .purpose-card__title * {
+    font-size: 0.8rem;
+  }
+
+  .purpose-card__wrapper {
+    position: relative;
+    border-radius: 0.3rem;
+    padding: 1.26rem 1.7rem 1.4rem 1.4rem;
+  }
+
+  .purpose-card__background--1 {
+    border-radius: 0.4rem;
+  }
+
+  .purpose-card__background--2 {
+    border-radius: 0.5rem;
+  }
+
+  .purpose-card__logo {
+    flex: 0 0 4.4rem;
+    padding: 0.8rem;
+    height: 4.4rem;
+  }
+
+  .purpose-card__time * {
+    font-size: 0.5rem;
+  }
+
+  .purpose-card__description * {
+    font-size: 0.8rem;
+  }
+
+  .purpose-card__shadow {
+    margin-top: 2.8rem;
+  }
 }

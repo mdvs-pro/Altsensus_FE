@@ -115,12 +115,14 @@
       </section>
       <section id="philosophy" class="philosophy">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col-xl-3 text-accent text-thin text-xl">
-              <h2>НАША ФІЛОСОФІЯ</h2>
+          <div class="row p-rel overflowHidden align-items-center">
+            <div
+              class="philosophy__animation-wrapper text-accent text-thin text-xl philosophy__animation"
+            >
+              <h2><span>НАША ФІЛОСОФІЯ</span></h2>
             </div>
             <div
-              class="philosophy__card-wrapper px-0 offset-1 col-10 offset-xl-1 col-xl-4 pos d-flex justify-content-center"
+              class="philosophy__card-wrapper px-0 offset-1 offset-xl-4 col-10 col-xl-4 pos d-flex justify-content-center"
             >
               <div class="philosophy__card">
                 <div
@@ -149,58 +151,68 @@
               </div>
             </div>
             <div
-              class="offset-xl-1 col-xl-3 d-flex justify-content-end text-accent text-thin text-xl"
+              class="philosophy__animation-wrapper philosophy__animation-wrapper--second text-accent text-thin text-xl philosophy__animation"
             >
               <h2>НАША ФІЛОСОФІЯ</h2>
             </div>
           </div>
+        </div>
+      </section>
 
+      <section id="aboutName" class="about-name">
+        <div class="container">
           <div class="row">
-            <div class="col-xl-2 pe-0">
-              <div class="philosophy__pin-button-wrapper">
+            <div class="col-4 col-xl-2 pe-0">
+              <div class="about-name__pin-button-wrapper">
                 <button class="btn">
-                  <div class="philosophy__pin-icon"></div>
+                  <div class="about-name__pin-icon"></div>
                 </button>
               </div>
             </div>
-            <div class="col-xl-1 px-0 borderBottom borderTop borderLeft"></div>
             <div
-              class="col-xl-5 d-flex align-items-center borderBottom borderTop"
+              class="mobileHidden col-1 col-xl-1 px-0 borderBottom borderTop borderLeft"
+            ></div>
+            <div
+              class="col-8 col-xl-5 d-flex align-items-center borderBottom borderTop"
             >
-              <div class="text-thin text-xl">
-                НАЗВА НАШОЇ КОМПАНІЇ ВІДОБРАЖАЄ НАШЕ БАЧЕННЯ МАЙБУТНЬОГО ТА
-                УНІКАЛЬНИЙ ПІДХІД ДО ІНВЕСТУВАННЯ:
+              <div class="about-name__title text-thin text-xl">
+                <h2>
+                  НАЗВА НАШОЇ КОМПАНІЇ ВІДОБРАЖАЄ НАШЕ БАЧЕННЯ МАЙБУТНЬОГО ТА
+                  УНІКАЛЬНИЙ ПІДХІД ДО ІНВЕСТУВАННЯ:
+                </h2>
               </div>
             </div>
-            <div class="col-xl-4 borderBottom borderTop borderRight"></div>
+            <div
+              class="col-4 col-xl-4 borderBottom borderTop borderRight"
+            ></div>
           </div>
 
-          <div class="philosophy__name row borderRight">
-            <div class="offset-xl-2 col-xl-2">
-              <div class="philosophy__name-title text-xl text-bold">
+          <div class="about-name__name row borderRight">
+            <div class="col-4 offset-xl-2 col-xl-2">
+              <div class="about-name__name-description-title text-xl text-bold">
                 <p>"ALT"</p>
               </div>
-              <div class="text-lg">
+              <div class="about-name__name-description text-lg">
                 <p>
                   скорочення від Alternative <br />
                   (альтернатива)
                 </p>
               </div>
             </div>
-            <div class="col-xl-2">
-              <div class="philosophy__name-title text-xl text-bold">
+            <div class="offset-2 col-5 offset-xl-0 col-xl-2">
+              <div class="about-name__name-description-title text-xl text-bold">
                 <p>"SENSUS"</p>
               </div>
-              <div class="text-lg">
+              <div class="about-name__name-description text-lg">
                 <p>з латини означає сприйняття, відчуття, думка.</p>
               </div>
             </div>
 
-            <div class="offset-xl-1 col-xl-4">
-              <div class="philosophy__name-title text-xl text-bold">
+            <div class="col-12 offset-xl-1 col-xl-4">
+              <div class="about-name__name-description-title text-xl text-bold">
                 <p>ALT SENSUS</p>
               </div>
-              <div class="text-lg">
+              <div class="about-name__name-description text-lg">
                 <p>
                   це "Альтернативне сприйняття", що відображає наше переконання
                   в тому, що домінування технологічних гігантів не є незмінним,
@@ -211,10 +223,10 @@
           </div>
 
           <div
-            class="philosophy__description row borderTop borderRight d-flex align-items-center"
+            class="about-name__description row borderTop borderRight d-flex align-items-center"
           >
-            <div class="offset-xl-2 col-xl-4">
-              <div class="philosophy__description-image">
+            <div class="col-9 offset-xl-2 col-xl-4">
+              <div class="about-name__description-image">
                 <img
                   src="images/philosophyDescriptionImage.png"
                   alt="philosophy image"
@@ -222,7 +234,7 @@
               </div>
             </div>
 
-            <div class="offset-xl-1 col-xl-4 text-lg">
+            <div class="col-12 offset-xl-1 col-xl-4 text-lg">
               <p>
                 Ми прагнемо використовувати недооцінені макроекономічні
                 тенденції та переоцінку термінів технологічної та фінансової
@@ -274,61 +286,68 @@
               <h3><b>ІВЕНСТЕЦІЙНИЙ ПРОЦЕС</b> ВКЛЮЧАЄ В СЕБЕ:</h3>
             </div>
           </div>
-
-          <div class="row align-items-end">
-            <div class="offset-xl-4 col-xl-2">
-              <div class="approach__process-icon">
-                <img src="images/icons/upload.svg" alt="upload" />
+          <div class="approach__invest-process-wrapper">
+            <div class="row align-items-end">
+              <div
+                class="approach__invest-item approach__invest-item--invest offset-xl-4 col-xl-2"
+              >
+                <div class="approach__process-icon">
+                  <img src="images/icons/upload.svg" alt="upload" />
+                </div>
+                <div class="approach__process-text text-lg">
+                  <p>
+                    <b>Інвестування</b> у перспективні проєкти з високим
+                    потенціалом зростання, які ще не привернули уваги великих
+                    інституційних інвесторів.
+                  </p>
+                </div>
               </div>
-              <div class="approach__process-text text-lg">
-                <p>
-                  <b>Інвестування</b> у перспективні проєкти з високим
-                  потенціалом зростання, які ще не привернули уваги великих
-                  інституційних інвесторів.
-                </p>
+
+              <div
+                class="approach__invest-item approach__invest-item--intelligent offset-xl-2 col-xl-2"
+              >
+                <div class="approach__process-icon">
+                  <img src="images/icons/share.svg" alt="upload" />
+                </div>
+                <div class="approach__process-text text-lg">
+                  <p>
+                    <b>Інтелектуальний аналіз</b> для оцінки динаміки галузі,
+                    вартості капіталу та ринкових тенденцій.
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div class="offset-xl-2 col-xl-2">
-              <div class="approach__process-icon">
-                <img src="images/icons/share.svg" alt="upload" />
-              </div>
-              <div class="approach__process-text text-lg">
-                <p>
-                  <b>Інтелектуальний аналіз</b> для оцінки динаміки галузі,
-                  вартості капіталу та ринкових тенденцій.
-                </p>
+            <div class="row">
+              <div class="approach__line offset-xl-1 col-xl-10">
+                <img src="images/line.png" alt="line" />
               </div>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="approach__line offset-xl-1 col-xl-10">
-              <img src="images/line.png" alt="line" />
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="offset-xl-2 col-xl-2">
-              <div class="approach__process-icon">
-                <img src="images/icons/settings.svg" alt="upload" />
+            <div class="row">
+              <div
+                class="approach__invest-item approach__invest-item--analyz offset-xl-2 col-xl-2"
+              >
+                <div class="approach__process-icon">
+                  <img src="images/icons/settings.svg" alt="upload" />
+                </div>
+                <div class="approach__process-text text-lg">
+                  <p>
+                    <b>Аналіз</b> глобальних економічних і фінансових тенденцій
+                    для пошуку недооцінених можливостей.
+                  </p>
+                </div>
               </div>
-              <div class="approach__process-text text-lg">
-                <p>
-                  <b>Аналіз</b> глобальних економічних і фінансових тенденцій
-                  для пошуку недооцінених можливостей.
-                </p>
-              </div>
-            </div>
-            <div class="offset-xl-2 col-xl-2">
-              <div class="approach__process-icon">
-                <img src="images/icons/lock.svg" alt="upload" />
-              </div>
-              <div class="approach__process-text text-lg">
-                <p>
-                  <b>Управління ризиками,</b> враховуючи кореляцію криптовалют
-                  із традиційними фінансовими інструментами.
-                </p>
+              <div class="approach__invest-item offset-xl-2 col-xl-2">
+                <div class="approach__process-icon">
+                  <img src="images/icons/lock.svg" alt="upload" />
+                </div>
+                <div class="approach__process-text text-lg">
+                  <p>
+                    <b>Управління ризиками,</b> враховуючи кореляцію криптовалют
+                    із традиційними фінансовими інструментами.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
@@ -336,10 +355,9 @@
 
         <div class="container approach__card-container">
           <div class="row">
-            <div class="approach__card px-0 col-xl-12">
-              <div
-                class="approach__card-wrapper d-flex justify-content-between align-items-end height100"
-              >
+            <div class="approach__card px-md-0 col-xl-12">
+              <div class="approach__card-wrapper">
+                <div class="approach__card-image-background"></div>
                 <div class="approach__card-background"></div>
                 <div class="approach__card-text p-rel">
                   <div class="approach__card-title text-accent">
@@ -371,7 +389,7 @@
           <div class="container borderTop borderBottom">
             <div class="row p-rel align-items-center">
               <div
-                class="approach__services-item p-rel col-xl-4 text-lg text-center"
+                class="approach__services-item p-rel col-xl-4 text-center"
               >
                 <p>
                   Вирівнюємо наші інтереси з інтересами клієнтів, інвестуючи
@@ -388,7 +406,7 @@
                   class="approach__service-item-divider-border approach__service-item-divider-border-bottom borderLeft borderRight"
                 ></div>
               </div>
-              <div class="approach__services-item col-xl-4 text-lg text-center">
+              <div class="approach__services-item col-xl-4 text-center">
                 <p>
                   Надаємо повну звітність щодо інвестицій. Готові надати
                   підтверджений <b>трек-рекорд</b> та дані для перевірки ділової
@@ -405,10 +423,8 @@
                   class="approach__service-item-divider-border approach__service-item-divider-border-bottom borderLeft borderRight"
                 ></div>
               </div>
-              <div class="approach__services-item col-xl-4">
-                <div class="text-lg text-center">
-                  <p>Дотримуємось суворих стандартів управління ризиками.</p>
-                </div>
+              <div class="approach__services-item col-xl-4 text-center">
+                <p>Дотримуємось суворих стандартів управління ризиками.</p>
               </div>
             </div>
           </div>
@@ -423,22 +439,23 @@
             ></div>
           </div>
         </div>
-        <div class="approach__bottom-divider"></div>
+        <div class="approach__bottom-divider mobileHidden"></div>
       </section>
 
       <section id="perfomance" class="perfomance">
         <div class="container">
           <div class="row">
             <div class="offset-xxl-2 col-xxl-8 col-xl-12">
-              <div
-                class="perfomance__title text-accent text-xxl text-center text-thin"
-              >
-                <h2>ПЕРЕВІРЕНА <i>РЕЗУЛЬТАТИВНІСТЬ</i></h2>
+              <div class="perfomance__title text-accent text-center text-thin">
+                <h2>
+                  ПЕРЕВІРЕНА <br />
+                  <i>РЕЗУЛЬТАТИВНІСТЬ</i>
+                </h2>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-12 text-xl text-center">
+            <div class="perfomance__waiting col-12 text-xl text-center">
               <p>
                 ІНВЕСТОРИ НЕ ПОВИННІ ЧЕКАТИ РОКАМИ, ЩОБ ПОБАЧИТИ, ЧИ ПРАЦЮЄ
                 СТРАТЕГІЯ.
@@ -458,9 +475,7 @@
           </div>
           <div class="row">
             <div class="perfomance__statistic col-xl-4">
-              <div
-                class="perfomance__statistic-title text-xxl text-accent text-center"
-              >
+              <div class="perfomance__statistic-title text-accent text-center">
                 <p>$17.98M+</p>
               </div>
               <div class="text-lg text-center">
@@ -471,9 +486,7 @@
               </div>
             </div>
             <div class="perfomance__statistic col-xl-4">
-              <div
-                class="perfomance__statistic-title text-xxl text-accent text-center"
-              >
+              <div class="perfomance__statistic-title text-accent text-center">
                 <p>>79%</p>
               </div>
               <div class="text-lg text-center">
@@ -485,9 +498,7 @@
               </div>
             </div>
             <div class="perfomance__statistic col-xl-4">
-              <div
-                class="perfomance__statistic-title text-xxl text-accent text-center"
-              >
+              <div class="perfomance__statistic-title text-accent text-center">
                 <p>$7.98M</p>
               </div>
               <div class="text-lg text-center">
@@ -507,12 +518,9 @@
           <div class="row">
             <div class="offset-xl-1 col-xl-5">
               <div
-                class="stategy__title color-accent text-50 text-center text-accent text-thin"
+                class="stategy__title color-accent text-center text-accent text-thin"
               >
-                <p>
-                  Жодних <br />
-                  розтягнутих стратегій
-                </p>
+                <p>Жодних розтягнутих стратегій</p>
               </div>
               <div
                 class="stategy__description text-lg text-white text-center text-thin"
@@ -522,14 +530,11 @@
                 </p>
               </div>
             </div>
-            <div class="offset-xl-1 col-xl-5">
+            <div class="col-10 offset-1 offset-xl-1 col-xl-5">
               <div
-                class="stategy__title color-accent text-50 text-center text-accent text-thin"
+                class="stategy__title color-accent text-center text-accent text-thin"
               >
-                <p>
-                  Повний <br />
-                  інвестиційний цикл
-                </p>
+                <p>Повний інвестиційний цикл</p>
               </div>
               <div
                 class="stategy__description text-lg text-white text-center text-thin"
@@ -554,7 +559,7 @@
               <div class="text-lg text-center">
                 <p>Ми створили AltSensus для інвесторів, які цінують</p>
               </div>
-              <div class="purpose__title text-50 text-accent text-center">
+              <div class="purpose__title text-accent text-center">
                 <h2>ШВИДКІСТЬ ІНСАЙТИ ТА МИТТЄВИЙ ЕФФЕКТ</h2>
               </div>
               <div class="text-lg text-center">
@@ -563,22 +568,26 @@
 
               <div class="purpose-card">
                 <div class="p-rel">
-                  <div class="purpose-card__background-2"></div>
-                  <div class="purpose-card__background-1"></div>
+                  <div
+                    class="purpose-card__background purpose-card__background--2"
+                  ></div>
+                  <div
+                    class="purpose-card__background purpose-card__background--1"
+                  ></div>
                   <div class="purpose-card__wrapper">
                     <div class="purpose-card__logo p-rel">
                       <img src="images/miniLogo.png" alt="logo" />
                     </div>
                     <div class="purpose-card__text p-rel">
                       <div class="purpose-card__title-wrapper">
-                        <div class="text-22 text-white">
+                        <div class="purpose-card__title text-white">
                           <span>ALTSENSUS</span>
                         </div>
                         <div class="purpose-card__time">
                           <span>1 хвилину тому</span>
                         </div>
                       </div>
-                      <div class="text-22 text-white">
+                      <div class="purpose-card__description text-white">
                         <p>
                           Ви довіряєте не теорії. <br />
                           Ви довіряєте команді, яка вже показала результат —
@@ -600,7 +609,7 @@
             <div class="offset-xl-2 col-xl-1 borderLeft borderBottom"></div>
             <div class="col-xl-6 borderBottom">
               <div
-                class="purpose__current-strategy text-xl text-primary-color text-center"
+                class="purpose__current-strategy text-primary-color text-center"
               >
                 <p>
                   Перевірте нашу поточну стратегію на <br /><a
@@ -616,19 +625,27 @@
       </section>
       <section id="basis" class="basis">
         <div class="container basis__container borderLeft borderRight">
-          <div class="basis__title-wrapper offset-xl-1 col-xl-6">
-            <div class="text-64 text-accent">
-              <h2>Основа діяльності — довіра та прозорість</h2>
+          <div class="row">
+            <div
+              class="basis__title-wrapper offset-3 col-8 offset-xl-1 col-xl-6"
+            >
+              <div class="basis__title text-64 text-accent">
+                <h2>ОСНОВА ДІЯЛЬНОСТІ — ДОВІРА ТА ПРОЗОРІСТЬ</h2>
+              </div>
             </div>
           </div>
         </div>
         <div class="basis__divider borderBottom width100"></div>
         <div class="container">
           <div class="row">
-            <div class="basis__image-container offset-xl-2 pe-0 col-xl-5">
+            <div
+              class="col-7 order-1 order-lg-1 basis__image-container offset-xl-2 pe-0 col-xl-5"
+            >
               <img src="images/basis1.png" alt="" />
             </div>
-            <div class="basis__items-container col-xl-5">
+            <div
+              class="offset-3 col-9 order-3 order-lg-2 basis__items-container offset-xl-0 col-xl-5"
+            >
               <div class="basis__item d-flex text-primary-color text-lg">
                 <div class="basis__item-plus">
                   <img src="images/icons/plus.svg" alt="plus" />
@@ -645,7 +662,9 @@
                 <span> Надаємо повну звітність щодо інвестицій. </span>
               </div>
             </div>
-            <div class="basis__items-container offset-xl-2 col-xl-5">
+            <div
+              class="offset-3 col-9 order-4 order-lg-3 basis__items-container offset-xl-2 col-xl-5"
+            >
               <div class="basis__item d-flex text-primary-color text-lg">
                 <div class="basis__item-plus">
                   <img src="images/icons/plus.svg" alt="plus" />
@@ -664,7 +683,9 @@
                 </span>
               </div>
             </div>
-            <div class="basis__image-container ps-0 col-xl-3">
+            <div
+              class="offset-7 col-5 order-2 order-lg-4 basis__image-container ps-0 col-xl-3"
+            >
               <img src="images/basis2.png" alt="" />
             </div>
           </div>
@@ -679,7 +700,7 @@
       <div id="contacts" class="contacts">
         <div class="container">
           <div class="row">
-            <div class="contacts-item p-rel offset-xl-2 col-xl-4">
+            <div class="contacts-item p-rel col-6 offset-xl-2 col-xl-4">
               <div class="contacts-item__wrapper">
                 <img src="images/ЮрійБажинов.png" alt="Юрій Бажинов" />
                 <div class="contacts-item__background-gradient"></div>
@@ -702,7 +723,9 @@
                 </div>
               </div>
             </div>
-            <div class="contacts-item contacts-item--right p-rel col-xl-4">
+            <div
+              class="contacts-item contacts-item--right col-6 p-rel col-xl-4"
+            >
               <div class="contacts-item__wrapper">
                 <img src="images/ДмитроБондар.png" alt="Дмитро Бондар" />
                 <div class="contacts-item__background-gradient"></div>
@@ -739,7 +762,7 @@
       <div id="formBlock" class="form-block">
         <div class="container">
           <div class="row align-items-center">
-            <div class="offset-xl-4 px-0 col-xl-4">
+            <div class="col-12 offset-xl-4 px-lg-0 col-xl-4">
               <div class="form">
                 <div class="form__logo">
                   <img src="images/logo.png" alt="logo" />
@@ -804,12 +827,14 @@
             <div class="offset-xl-1 col-xl-3 form-block__text">
               <div class="form-block__text-item p-rel">
                 <div
-                  class="form-block__text-item-background gradient-left"
+                  class="mobileHidden form-block__text-item-background gradient-left"
                 ></div>
-                <div class="p-rel text-lg text-white text-bold">
+                <div
+                  class="form-block__text-item-title p-rel text-white text-bold"
+                >
                   <p>Швидка відповідь</p>
                 </div>
-                <div class="p-rel text-22 text-white">
+                <div class="form-block__text-item-content p-rel text-white">
                   <p>
                     Якщо ви готові до створення та співпраці — будемо раді вас
                     вислухати.
@@ -817,10 +842,10 @@
                 </div>
               </div>
               <div class="form-block__text-item">
-                <div class="text-lg text-white text-bold">
+                <div class="form-block__text-item-title text-white text-bold">
                   <p>Чіткі кроки</p>
                 </div>
-                <div class="text-22 text-white">
+                <div class="form-block__text-item-content text-white">
                   <p>
                     Після консультації ми надамо вам детальний план і графік
                     реалізації.
@@ -833,7 +858,7 @@
       </div>
 
       <div id="quickContact" class="quick-contact">
-        <div class="container">
+        <div class="container mobileHidden">
           <div class="row">
             <div class="offset-xl-1 col-xl-4 text-lg text-bold text-white">
               <p>

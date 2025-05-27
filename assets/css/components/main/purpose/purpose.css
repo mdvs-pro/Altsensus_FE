@@ -1,8 +1,5 @@
 @import url("./purposeCard.css");
 
-.purpose__card-container {
-}
-
 .purpose__card-col {
   padding-top: 8.5rem;
 }
@@ -10,11 +7,16 @@
 .purpose__title {
   margin-top: 1rem;
   margin-bottom: 1rem;
+  font-size: 5rem;
 }
 
 .purpose__current-strategy {
   padding-top: 7rem;
   padding-bottom: 7rem;
+}
+
+.purpose__current-strategy * {
+  font-size: 3.3rem;
 }
 
 .purpose__current-strategy a {
@@ -25,4 +27,23 @@
 
 .purpose__current-strategy a:hover {
   color: var(--accent-color);
+}
+
+@media (max-width: 576px) {
+  .purpose__card-col {
+    padding-top: 4rem;
+  }
+
+  .purpose__title * {
+    font-size: 1.4rem;
+  }
+
+  .purpose__current-strategy {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .purpose__current-strategy * {
+    font-size: 1.4rem;
+  }
 }

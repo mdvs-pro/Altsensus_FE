@@ -1,0 +1,104 @@
+.about-name__pin-button-wrapper {
+  aspect-ratio: 1.2 / 1;
+  width: 100%;
+  height: auto;
+}
+
+.about-name__pin-button-wrapper .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0;
+}
+
+.about-name__pin-button-wrapper .btn .about-name__pin-icon {
+  mask: url("../../../../../images/fi_bookmark.svg") no-repeat center;
+  -webkit-mask: url("../../../../../images/fi_bookmark.svg") no-repeat center;
+  mask-size: contain;
+  -webkit-mask-size: contain;
+
+  transition: background-color 0.1s ease;
+
+  background-color: #ededed;
+  width: 7.4rem;
+  height: 7.4rem;
+}
+
+@media (max-width: 576px) {
+  .about-name__pin-button-wrapper .btn .about-name__pin-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .about-name__title h2 {
+    font-size: 1.2rem;
+  }
+}
+
+.about-name__pin-button-wrapper .btn:hover .about-name__pin-icon {
+  background-color: var(--primary-color);
+}
+
+.about-name__name {
+  padding-top: 8.3rem;
+  padding-bottom: 6.9rem;
+}
+
+@media (max-width: 576px) {
+  .about-name__name {
+    padding-top: 3rem;
+    padding-bottom: 0;
+  }
+}
+
+.about-name__name-description-title p {
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+}
+
+.about-name__name-description-title {
+  padding-top: 10rem;
+}
+
+.about-name__name-description * {
+  font-size: 2.4rem;
+}
+
+@media (max-width: 576px) {
+  .about-name__name-description-title {
+    padding-top: 0rem;
+  }
+  .about-name__name-description * {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+  }
+}
+
+.about-name__description {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.about-name__description-image {
+  border-radius: 2.5rem;
+  aspect-ratio: 2/1;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 576px) {
+  .about-name__description {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
+  .about-name__description-image {
+    margin-bottom: 3rem;
+  }
+}
+
+.about-name__description-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
