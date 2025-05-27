@@ -1,7 +1,7 @@
 @import url("./form.css");
 
 .form-block {
-  background-image: url("../../../../../images/formBlockBg.png");
+  background-image: url("../../../../images/formBlockBg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

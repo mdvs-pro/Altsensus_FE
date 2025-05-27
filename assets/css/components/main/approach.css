@@ -158,8 +158,6 @@
   justify-content: space-between;
   align-items: flex-end;
   border-radius: 2.5rem;
-  /* background-image: url("/images/approachCard.png");
-  background-size: cover; */
   padding: 4.5rem;
   aspect-ratio: 2.9 / 1;
   height: auto;
@@ -171,7 +169,7 @@
   top: 0;
   left: 0;
   border-radius: 2.5rem;
-  background-image: url("/images/approachCard.png");
+  background-image: url("../../../../images/approachCard.png");
   background-position: top left;
   background-size: cover;
   background-repeat: no-repeat;
