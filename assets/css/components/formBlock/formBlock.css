@@ -28,12 +28,12 @@
 
 .form-block__text-item-title,
 .form-block__text-item-title * {
-  font-size: 2.4rem;
+  font-size: var(--font-size-lg);
 }
 
 .form-block__text-item-content,
 .form-block__text-item-content * {
-  font-size: 2.2rem;
+  font-size: var(--font-size-22);
   line-height: 1.5;
 }
 
@@ -60,11 +60,11 @@
 
   .form-block__text-item-title,
   .form-block__text-item-title * {
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
   }
 
   .form-block__text-item-content,
   .form-block__text-item-content * {
-    font-size: 1.2rem;
+    font-size: var(--font-size-12);
   }
 }

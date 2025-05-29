@@ -20,7 +20,7 @@
 }
 
 .stategy__title * {
-  font-size: 5rem;
+  font-size: var(--font-size-50);
 }
 
 .stategy__description {
@@ -34,12 +34,12 @@
   }
 
   .stategy__title * {
-    font-size: 1.6rem;
+    font-size: var(--font-size-16);
   }
 
   .stategy__description {
     margin-bottom: 4rem;
     padding: 0 1.5rem;
-    font-size: 1.2rem;
+    font-size: var(--font-size-12);
   }
 }

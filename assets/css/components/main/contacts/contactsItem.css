@@ -119,12 +119,12 @@
 
   .contacts-item__name,
   .contacts-item__name * {
-    font-size: 0.7rem;
+    font-size: var(--font-size-07);
   }
 
   .contacts-item__title,
   .contacts-item__title * {
-    font-size: 0.6rem;
+    font-size: var(--font-size-06);
   }
 
   .contacts-item__icon-wrapper {

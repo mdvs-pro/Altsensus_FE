@@ -7,7 +7,7 @@
 .purpose__title {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  font-size: 5rem;
+  font-size: var(--font-size-50);
 }
 
 .purpose__current-strategy {
@@ -16,7 +16,7 @@
 }
 
 .purpose__current-strategy * {
-  font-size: 3.3rem;
+  font-size: var(--font-size-33);
 }
 
 .purpose__current-strategy a {
@@ -35,7 +35,7 @@
   }
 
   .purpose__title * {
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
   }
 
   .purpose__current-strategy {
@@ -44,6 +44,6 @@
   }
 
   .purpose__current-strategy * {
-    font-size: 1.4rem;
+    font-size: var(--font-size-14);
   }
 }

@@ -48,7 +48,7 @@
   transition: all 0.1s ease;
   color: #1a1d26;
   font-weight: 700;
-  font-size: 1.5rem;
+  font-size: var(--font-size-sm);
   text-decoration: none;
 }
 
@@ -64,5 +64,5 @@
 
 .header__button-wrapper .btn {
   font-weight: bold;
-  font-size: 1.6rem;
+  font-size: var(--font-size-16);
 }

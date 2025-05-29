@@ -7,7 +7,7 @@
 }
 
 .basis__title * {
-  font-size: 6.4rem;
+  font-size: var(--font-size-64);
 }
 
 .basis__image-container img {
@@ -38,7 +38,7 @@
   }
 
   .basis__title * {
-    font-size: 1.6rem;
+    font-size: var(--font-size-16);
   }
 
   .basis__item-plus {

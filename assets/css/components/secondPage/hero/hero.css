@@ -1,0 +1,43 @@
+.hero {
+  background-image: url("../../../../../images/hero2.png");
+  background-position: bottom center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: calc(100vh - 6rem);
+}
+
+.hero__team {
+  padding-top: 10.8rem;
+  padding-bottom: 2.2rem;
+}
+
+.hero__team,
+.hero__team * {
+  font-size: var(--font-size-lg);
+}
+
+.hero__title,
+.hero__title * {
+  font-size: var(--font-size-50);
+}
+
+@media (max-width: 576px) {
+  .hero {
+    height: calc(100vh - 4rem);
+  }
+
+  .hero__team {
+    padding-top: 13.4rem;
+    padding-bottom: 3.3rem;
+  }
+
+  .hero__team,
+  .hero__team * {
+    font-size: var(--font-size-14);
+  }
+
+  .hero__title,
+  .hero__title * {
+    font-size: var(--font-size-20);
+  }
+}

@@ -14,7 +14,7 @@
 
 .footer__nav a {
   transition: all 0.2s ease;
-  font-size: 1.8rem;
+  font-size: var(--font-size-18);
 }
 
 .footer__nav a:hover {
@@ -24,7 +24,7 @@
 .footer__description,
 .footer__description * {
   opacity: 0.5;
-  font-size: 1.2rem;
+  font-size: var(--font-size-12);
 }
 
 .footer__social-links {
@@ -64,7 +64,7 @@
 }
 
 .footer__copyright {
-  font-size: 1.8rem;
+  font-size: var(--font-size-18);
 }
 
 @media (max-width: 576px) {
@@ -77,12 +77,12 @@
   }
 
   .footer__nav a {
-    font-size: 1.2rem;
+    font-size: var(--font-size-12);
   }
 
   .footer__description,
   .footer__description * {
-    font-size: 0.8rem;
+    font-size: var(--font-size-08);
   }
 
   .footer__social-links {
@@ -96,6 +96,6 @@
   }
 
   .footer__copyright {
-    font-size: 1.2rem;
+    font-size: var(--font-size-12);
   }
 }

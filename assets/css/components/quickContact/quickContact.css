@@ -35,7 +35,7 @@
   border: none;
   padding: 1.6rem 3rem;
   color: var(--primary-color);
-  font-size: 1.8rem;
+  font-size: var(--font-size-18);
 }
 .quick-contact__input-wrapper input:focus {
   outline: none;
@@ -58,7 +58,7 @@
   padding-bottom: 1.6rem;
   padding-left: 2.4rem;
   color: var(--primary-color);
-  font-size: 2.2rem;
+  font-size: var(--font-size-22);
 }
 
 .quick-contact__input-wrapper button:hover {
@@ -75,5 +75,5 @@
 .quick-contact__error-message * {
   margin-top: 0.5rem;
   color: var(--accent-color);
-  font-size: 1.4rem;
+  font-size: var(--font-size-14);
 }

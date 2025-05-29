@@ -316,20 +316,6 @@
 
 /* Responsive Text Classes */
 @media (max-width: 768px) {
-  /* .heading-1,
-  .heading-1 > * {
-    font-size: calc(var(--font-size-xxl) * 0.75);
-  }
-
-  .heading-2,
-  .heading-2 > * {
-    font-size: calc(var(--font-size-xl) * 0.8);
-  }
-
-  .heading-3,
-  .heading-3 > * {
-    font-size: calc(var(--font-size-lg) * 0.85);
-  } */
 }
 
 /* Text Wrap */
