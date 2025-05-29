@@ -1,5 +1,6 @@
 .risks {
   padding-top: 12rem;
+  overflow: hidden;
 }
 
 .risks__card {
@@ -155,6 +156,10 @@
   height: 100%;
 }
 
+.risks__bottom-divider-wrapper {
+  border-bottom: 0.1rem solid var(--border-color);
+}
+
 .risks__bottom-divider-item {
   border-right: 0.1rem solid var(--border-color);
   border-left: 0.1rem solid var(--border-color);
@@ -198,7 +203,6 @@
 @media (max-width: 575px) {
   .risks__items-row {
     padding-top: 1rem;
-    /* padding-bottom: 1rem; */
   }
 
   .risks__side-divider {
