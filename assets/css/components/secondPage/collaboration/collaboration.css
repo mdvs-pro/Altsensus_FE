@@ -2,7 +2,7 @@
   padding-bottom: 7rem;
 }
 
-.collaboration__how-it-work {
+.collaboration__animation-container {
   position: relative;
   background-color: var(--primary-color);
   padding-top: 2.5rem;
@@ -31,25 +31,7 @@
   animation: slideOut 20s infinite linear;
 }
 
-@keyframes slideIn {
-  from {
-    left: -100%;
-  }
-  to {
-    left: 0;
-  }
-}
-
-@keyframes slideOut {
-  from {
-    left: 0;
-  }
-  to {
-    left: 100%;
-  }
-}
-
-.collaboration__how-it-work * {
+.collaboration__animation-container * {
   color: var(--accent-color);
   font-size: var(--font-size-33);
 }
@@ -133,12 +115,12 @@
     padding-bottom: 2rem;
   }
 
-  .collaboration__how-it-work {
+  .collaboration__animation-container {
     padding: 0;
     height: 2.5rem;
   }
 
-  .collaboration__how-it-work * {
+  .collaboration__animation-container * {
     font-size: var(--font-size-16);
   }
 
