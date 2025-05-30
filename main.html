@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/components/main/main.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header desktopHidden">
       <div class="container">
         <div class="header__wrapper">
           <div class="header__logo-wrapper">
@@ -31,6 +31,7 @@
 
     <main>
       <section id="home" class="hero">
+        <div class="hero__background"></div>
         <div class="hero__main container">
           <div class="row hero__title-wrapper">
             <div class="text-sm-center offset-lg-1 col-lg-8">
@@ -40,7 +41,7 @@
 
           <div class="row hero__subtitle">
             <div
-              class="hero__subtitle-wrapper d-flex col-10 offset-1 offset-lg-1 col-lg-7"
+              class="hero__subtitle-wrapper d-flex col-10 offset-1 col-sm-6 offset-sm-3 offset-lg-1 col-lg-7"
             >
               <h2>CAPITAL</h2>
               <p>Альтернативний погляд на управління цифровими активами</p>
@@ -49,7 +50,7 @@
 
           <div class="row">
             <div
-              class="text-md text-sm-center text-thin text-white offset-lg-1 col-lg-4"
+              class="text-md text-sm-center text-thin text-white col-sm-8 offset-sm-2 offset-lg-1 col-lg-4"
             >
               <p>
                 Інвестиційні рішення для кваліфікованих інвесторів, орієнтовані
@@ -60,7 +61,7 @@
           </div>
 
           <div class="row hero__button-wrapper">
-            <div class="offset-lg-1 col-lg-2">
+            <div class="offset-sm-3 col-sm-6 offset-lg-1 col-lg-2">
               <button
                 class="hero__button btn btn--border text-bold text-white text-md"
               >
@@ -69,16 +70,16 @@
             </div>
           </div>
         </div>
-        <div id="story" class="hero__story container">
+        <div id="story" class="n  container">
           <div class="hero__srory-wrapper">
             <div class="row">
               <div
-                class="hero__story-title text-accent text-secondary offset-1 col-10 order-1 offset-lg-1 col-lg-3"
+                class="hero__story-title text-accent text-secondary offset-1 col-10 order-1 offset-sm-1 col-sm-3"
               >
                 <h2>НАША <i>ІСТОРІЯ</i></h2>
               </div>
               <div
-                class="order-4 order-lg-2 text-white text-lg offset-1 col-10 offset-lg-3 col-lg-5"
+                class="hero__story-text order-4 order-sm-2 text-white text-lg offset-1 col-10 offset-sm-1 col-sm-6 offset-lg-3 col-sm-5"
               >
                 <p>
                   <b>AltSensus Capital</b> — це команда професіоналів із
@@ -87,7 +88,7 @@
                 </p>
               </div>
               <div
-                class="order-2 text-white text-lg offset-1 col-10 offset-lg-1 col-lg-5"
+                class="hero__story-text order-2 text-white text-lg offset-1 col-10 offset-sm-1 col-sm-6 col-lg-5"
               >
                 <p>
                   Після успішної кар'єри в банках та інвестиційних компаніях
@@ -101,7 +102,7 @@
                 </p>
               </div>
               <div
-                class="order-3 hero__story-image-wrapper offset-5 col-6 offset-lg-1 col-lg-2"
+                class="hero__story-image-wrapper order-3 offset-5 col-6 col-sm-3 offset-sm-1 offset-lg-1 col-lg-2"
               >
                 <div class="hero__story-image">
                   <img src="images/hero-story.png" alt="Story Image" />
@@ -122,7 +123,7 @@
               <h2><span>НАША ФІЛОСОФІЯ</span></h2>
             </div>
             <div
-              class="philosophy__card-wrapper px-0 offset-1 offset-lg-4 col-10 col-lg-4 pos d-flex justify-content-center"
+              class="philosophy__card-wrapper px-0 offset-1 col-10 offset-sm-3 col-sm-7 offset-lg-4 col-lg-4 pos d-flex justify-content-center"
             >
               <div class="philosophy__card">
                 <div
@@ -161,20 +162,15 @@
 
       <section id="aboutName" class="about-name">
         <div class="container">
-          <div class="row">
-            <div class="col-4 col-lg-2 pe-0">
+          <div class="about-name__row row">
+            <div class="ps-0 col-4 col-sm-2 col-lg-2 pe-0">
               <div class="about-name__pin-button-wrapper">
                 <button class="btn">
                   <div class="about-name__pin-icon"></div>
                 </button>
               </div>
             </div>
-            <div
-              class="mobileHidden col-1 col-lg-1 px-0 borderBottom borderTop borderLeft"
-            ></div>
-            <div
-              class="col-8 col-lg-5 d-flex align-items-center borderBottom borderTop"
-            >
+            <div class="col-8 offset-lg-1 col-lg-5 d-flex align-items-center">
               <div class="about-name__title text-thin text-xl">
                 <h2>
                   НАЗВА НАШОЇ КОМПАНІЇ ВІДОБРАЖАЄ НАШЕ БАЧЕННЯ МАЙБУТНЬОГО ТА
@@ -182,13 +178,11 @@
                 </h2>
               </div>
             </div>
-            <div
-              class="col-4 col-lg-4 borderBottom borderTop borderRight"
-            ></div>
+            <div class="about-name__row-side-divider"></div>
           </div>
 
           <div class="about-name__name row borderRight">
-            <div class="col-4 offset-lg-2 col-lg-2">
+            <div class="col-4 col-sm-2 offset-lg-2 col-lg-2">
               <div class="about-name__name-description-title text-xl text-bold">
                 <p>"ALT"</p>
               </div>
@@ -199,7 +193,9 @@
                 </p>
               </div>
             </div>
-            <div class="offset-2 col-5 offset-lg-0 col-lg-2">
+            <div
+              class="offset-2 col-5 col-sm-2 offset-sm-1 offset-lg-0 col-lg-2"
+            >
               <div class="about-name__name-description-title text-xl text-bold">
                 <p>"SENSUS"</p>
               </div>
@@ -208,7 +204,7 @@
               </div>
             </div>
 
-            <div class="col-12 offset-lg-1 col-lg-4">
+            <div class="col-12 offset-sm-1 col-sm-5 col-lg-4">
               <div class="about-name__name-description-title text-xl text-bold">
                 <p>ALT SENSUS</p>
               </div>
@@ -221,32 +217,49 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="about-name__description-wrapper">
+          <div class="about-name__description-side-divider"></div>
+          <div class="about-name__description-container container">
+            <div
+              class="about-name__description row borderTop borderRight d-flex align-items-center"
+            >
+              <div class="col-9 pe-sm-0 col-sm-5 offset-lg-2 col-lg-4">
+                <div class="about-name__description-image">
+                  <img
+                    src="images/philosophyDescriptionImage.png"
+                    alt="philosophy image"
+                  />
+                </div>
+              </div>
 
-          <div
-            class="about-name__description row borderTop borderRight d-flex align-items-center"
-          >
-            <div class="col-9 offset-lg-2 col-lg-4">
-              <div class="about-name__description-image">
-                <img
-                  src="images/philosophyDescriptionImage.png"
-                  alt="philosophy image"
-                />
+              <div
+                class="col-12 ps-sm-0 col-sm-6 offset-sm-1 offset-lg-1 col-lg-4 text-lg"
+              >
+                <p>
+                  Ми прагнемо використовувати недооцінені макроекономічні
+                  тенденції та переоцінку термінів технологічної та фінансової
+                  революції.
+                </p>
+                <p>
+                  Це дозволяє нам застосовувати стратегічно зважений та
+                  адаптивний підхід до інвестування, використовуючи можливості,
+                  що залишаються поза увагою традиційних учасників ринку.
+                </p>
               </div>
             </div>
-
-            <div class="col-12 offset-lg-1 col-lg-4 text-lg">
-              <p>
-                Ми прагнемо використовувати недооцінені макроекономічні
-                тенденції та переоцінку термінів технологічної та фінансової
-                революції.
-              </p>
-              <p>
-                Це дозволяє нам застосовувати стратегічно зважений та адаптивний
-                підхід до інвестування, використовуючи можливості, що
-                залишаються поза увагою традиційних учасників ринку.
-              </p>
+            <div class="about-name__description-circle circle">
+              <div
+                class="about-name__description-circle-line about-name__description-circle-line--horizontal"
+              ></div>
+              <div
+                class="about-name__description-circle-line about-name__description-circle-line--vertical"
+              ></div>
             </div>
           </div>
+          <div
+            class="about-name__description-side-divider gradient-right"
+          ></div>
         </div>
       </section>
 
@@ -255,7 +268,7 @@
           <div class="container">
             <div class="row">
               <div
-                class="approach__header-wrapper d-flex offset-lg-1 col-lg-11"
+                class="approach__header-wrapper d-flex offset-sm-1 col-sm-11 offset-lg-1 col-lg-11"
               >
                 <div class="approach__title text-accent">
                   <h2>НАШ <br /><i>ПІДХІД</i></h2>
@@ -281,7 +294,7 @@
         <div class="container">
           <div class="row">
             <div
-              class="approach__content-title offset-lg-1 col-lg-4 text-xl text-accent"
+              class="approach__content-title offset-sm-1 col-sm-5 offset-lg-1 col-lg-4 text-xl text-accent"
             >
               <h3><b>ІВЕНСТЕЦІЙНИЙ ПРОЦЕС</b> ВКЛЮЧАЄ В СЕБЕ:</h3>
             </div>
@@ -289,7 +302,7 @@
           <div class="approach__invest-process-wrapper">
             <div class="row align-items-end">
               <div
-                class="approach__invest-item approach__invest-item--invest offset-lg-4 col-lg-2"
+                class="approach__invest-item approach__invest-item--invest offset-sm-3 col-sm-4 offset-lg-4 col-lg-2"
               >
                 <div class="approach__process-icon">
                   <img src="images/icons/upload.svg" alt="upload" />
@@ -304,7 +317,7 @@
               </div>
 
               <div
-                class="approach__invest-item approach__invest-item--intelligent offset-lg-2 col-lg-2"
+                class="approach__invest-item approach__invest-item--intelligent offset-sm-1 col-sm-3 offset-lg-2 col-lg-2"
               >
                 <div class="approach__process-icon">
                   <img src="images/icons/share.svg" alt="upload" />
@@ -326,7 +339,7 @@
 
             <div class="row">
               <div
-                class="approach__invest-item approach__invest-item--analyz offset-lg-2 col-lg-2"
+                class="approach__invest-item approach__invest-item--analyz offset-sm-1 col-sm-4 offset-lg-2 col-lg-2"
               >
                 <div class="approach__process-icon">
                   <img src="images/icons/settings.svg" alt="upload" />
@@ -338,7 +351,9 @@
                   </p>
                 </div>
               </div>
-              <div class="approach__invest-item offset-lg-2 col-lg-2">
+              <div
+                class="approach__invest-item offset-sm-1 col-sm-4 offset-lg-2 col-lg-2"
+              >
                 <div class="approach__process-icon">
                   <img src="images/icons/lock.svg" alt="upload" />
                 </div>
@@ -375,72 +390,101 @@
           </div>
         </div>
 
-        <div class="approach__services">
-          <div
-            class="approach__services-side-gradient borderTop borderBottom gradient-top"
-          >
-            <div
-              class="approach__service-item-divider-border approach__service-item-divider-border-top borderRight"
-            ></div>
-            <div
-              class="approach__service-item-divider-border approach__service-item-divider-border-bottom borderRight"
-            ></div>
+        <div class="approach__divider-container mobileHidden container">
+          <div class="row">
+            <div class="col-sm-4 ps-sm-0">
+              <div class="approach__divider-item"></div>
+            </div>
+            <div class="col-sm-4">
+              <div class="approach__divider-item"></div>
+            </div>
+            <div class="col-sm-4 pe-sm-0">
+              <div class="approach__divider-item"></div>
+            </div>
           </div>
-          <div class="container borderTop borderBottom">
-            <div class="row p-rel align-items-center">
-              <div class="approach__services-item p-rel col-lg-4 text-center">
-                <p>
-                  Вирівнюємо наші інтереси з інтересами клієнтів, інвестуючи
-                  власний капітал в аналогічні стратегії.
-                </p>
+        </div>
+        <div class="approach__items-wrapper p-rel">
+          <div
+            class="approach__side-divider approach__mobile-side-divider--left gradient-top"
+          >
+            <div class="approach__item-circle circle desktopHidden">
+              <div class="p-rel">
+                <div class="approach__item-circle-lineHorizontal"></div>
+                <div class="approach__item-circle-lineVertical"></div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="approach__mobile-side-divider"></div>
+
+            <div class="approach__items-row row p-rel">
+              <div class="approach__item-block p-rel col-sm-4 ps-sm-0">
+                <div class="approach__item">
+                  <div class="approach__item-content">
+                    <p>
+                      Вирівнюємо наші інтереси з інтересами клієнтів, інвестуючи
+                      власний капітал в аналогічні стратегії.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div
-                class="approach__services-item offset-lg-4 approach__service-item-divider gradient-bottom"
-              >
-                <div
-                  class="approach__service-item-divider-border approach__service-item-divider-border-top borderLeft borderRight"
-                ></div>
-                <div
-                  class="approach__service-item-divider-border approach__service-item-divider-border-bottom borderLeft borderRight"
-                ></div>
-              </div>
-              <div class="approach__services-item col-lg-4 text-center">
-                <p>
-                  Надаємо повну звітність щодо інвестицій. Готові надати
-                  підтверджений <b>трек-рекорд</b> та дані для перевірки ділової
-                  репутації.
-                </p>
+                class="approach__items-divider offset-sm-4 mobileHidden gradient-bottom"
+              ></div>
+              <div class="approach__item-block p-rel col-sm-4">
+                <div class="approach__item">
+                  <div class="approach__item-content">
+                    <p>
+                      Надаємо повну звітність щодо інвестицій. Готові надати
+                      підтверджений <b>трек-рекорд</b> та дані для перевірки
+                      ділової репутації.
+                    </p>
+                  </div>
+                </div>
               </div>
               <div
-                class="offset-lg-8 approach__service-item-divider gradient-top"
-              >
-                <div
-                  class="approach__service-item-divider-border approach__service-item-divider-border-top borderLeft borderRight"
-                ></div>
-                <div
-                  class="approach__service-item-divider-border approach__service-item-divider-border-bottom borderLeft borderRight"
-                ></div>
-              </div>
-              <div class="approach__services-item col-lg-4 text-center">
-                <p>Дотримуємось суворих стандартів управління ризиками.</p>
+                class="approach__items-divider offset-sm-8 mobileHidden gradient-top"
+              ></div>
+              <div class="approach__item-block p-rel col-sm-4 pe-sm-0">
+                <div class="approach__item approach__item--last">
+                  <div class="approach__item-content">
+                    <p>Дотримуємось суворих стандартів управління ризиками.</p>
+                  </div>
+                </div>
+                <div class="approach__item-circle circle mobileHidden">
+                  <div class="p-rel">
+                    <div class="approach__item-circle-lineHorizontal"></div>
+                    <div class="approach__item-circle-lineVertical"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div
-            class="approach__services-side-gradient borderTop borderBottom gradient-bottom"
+            class="approach__side-divider approach__mobile-side-divider--right gradient-bottom"
+          ></div>
+        </div>
+        <div class="approach__bottom-divider-wrapper">
+          <div
+            class="approach__bottom-divider-container mobileHidden container"
           >
-            <div
-              class="approach__service-item-divider-border approach__service-item-divider-border-top borderLeft"
-            ></div>
-            <div
-              class="approach__service-item-divider-border approach__service-item-divider-border-bottom borderLeft"
-            ></div>
+            <div class="row">
+              <div class="col-sm-4 ps-sm-0">
+                <div class="approach__bottom-divider-item"></div>
+              </div>
+              <div class="col-sm-4">
+                <div class="approach__bottom-divider-item"></div>
+              </div>
+              <div class="col-sm-4 pe-sm-0">
+                <div class="approach__bottom-divider-item"></div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="approach__bottom-divider mobileHidden"></div>
       </section>
 
       <section id="perfomance" class="perfomance">
+        <div class="perfomance__top-divider mobileHidden"></div>
         <div class="container">
           <div class="row">
             <div class="offset-xxl-2 col-xxl-8 col-lg-12">
@@ -462,7 +506,7 @@
           </div>
           <div class="row">
             <div
-              class="perfomance__description offset-lg-3 col-lg-6 text-lg text-center text-wrap-balance"
+              class="perfomance__description offset-sm-1 col-sm-10 offset-lg-3 col-lg-6 text-lg text-center text-wrap-balance"
             >
               <p>
                 Попри молодий вік фонду, його основою є глибока експертиза. Наша
@@ -472,7 +516,7 @@
             </div>
           </div>
           <div class="row">
-            <div class="perfomance__statistic col-lg-4">
+            <div class="perfomance__statistic col-sm-4">
               <div class="perfomance__statistic-title text-accent text-center">
                 <p>$17.98M+</p>
               </div>
@@ -483,7 +527,7 @@
                 </p>
               </div>
             </div>
-            <div class="perfomance__statistic col-lg-4">
+            <div class="perfomance__statistic col-sm-4">
               <div class="perfomance__statistic-title text-accent text-center">
                 <p>>79%</p>
               </div>
@@ -495,7 +539,7 @@
                 </p>
               </div>
             </div>
-            <div class="perfomance__statistic col-lg-4">
+            <div class="perfomance__statistic col-sm-4">
               <div class="perfomance__statistic-title text-accent text-center">
                 <p>$7.98M</p>
               </div>
@@ -512,48 +556,59 @@
 
       <section id="stategy" class="stategy p-rel">
         <div class="stategy__background"></div>
-        <div class="container p-rel">
-          <div class="row">
-            <div class="offset-lg-1 col-lg-5">
-              <div
-                class="stategy__title color-accent text-center text-accent text-thin"
-              >
-                <p>Жодних розтягнутих стратегій</p>
+        <div class="stategy__wrapper">
+          <div class="stategy__side-divider gradient-top"></div>
+          <div class="stategy__container container p-rel">
+            <div class="stategy__row row p-rel">
+              <div class="col-sm-5 offset-lg-1 col-lg-5">
+                <div
+                  class="stategy__title color-accent text-center text-accent text-thin"
+                >
+                  <p>Жодних розтягнутих стратегій</p>
+                </div>
+                <div
+                  class="stategy__description text-lg text-white text-center text-thin"
+                >
+                  <p>
+                    Наші ідеї працюють швидко, поки інші ще пишуть меморандуми
+                  </p>
+                </div>
               </div>
               <div
-                class="stategy__description text-lg text-white text-center text-thin"
-              >
-                <p>
-                  Наші ідеї працюють швидко, поки інші ще пишуть меморандуми
-                </p>
-              </div>
-            </div>
-            <div class="col-10 offset-1 offset-lg-1 col-lg-5">
+                class="strategy__description-divider offset-sm-5 col-sm-2 gradient-bottom"
+              ></div>
               <div
-                class="stategy__title color-accent text-center text-accent text-thin"
+                class="col-10 offset-1 col-sm-5 offset-sm-2 offset-lg-1 col-lg-5"
               >
-                <p>Повний інвестиційний цикл</p>
-              </div>
-              <div
-                class="stategy__description text-lg text-white text-center text-thin"
-              >
-                <p>
-                  Від входу до реалізації, із дотриманням аудиторських та
-                  регуляторних стандартів
-                </p>
+                <div
+                  class="stategy__title color-accent text-center text-accent text-thin"
+                >
+                  <p>Повний інвестиційний цикл</p>
+                </div>
+                <div
+                  class="stategy__description text-lg text-white text-center text-thin"
+                >
+                  <p>
+                    Від входу до реалізації, із дотриманням аудиторських та
+                    регуляторних стандартів
+                  </p>
+                </div>
               </div>
             </div>
           </div>
+          <div class="stategy__side-divider gradient-top"></div>
         </div>
       </section>
 
       <section id="purpose" class="purpose">
-        <div
-          class="container purpose__card-container borderLeft borderRight borderBottom"
-        >
+        <div class="container purpose__card-container">
           <div class="row">
-            <div class="offset-lg-2 col-lg-1 borderLeft"></div>
-            <div class="purpose__card-col col-lg-6">
+            <div
+              class="offset-lg-2 col-lg-1 borderLeft tabletHidden mobileHidden"
+            ></div>
+            <div
+              class="purpose__card-col offset-sm-3 col-sm-6 offset-lg-0 col-lg-6"
+            >
               <div class="text-lg text-center">
                 <p>Ми створили AltSensus для інвесторів, які цінують</p>
               </div>
@@ -563,7 +618,12 @@
               <div class="text-lg text-center">
                 <p>а не затяжну невизначеність</p>
               </div>
-
+            </div>
+            <div class="offset-lg-1 col-lg-1 borderLeft"></div>
+          </div>
+          <div class="row">
+            <div class="offset-lg-2 col-lg-1 borderLeft mobileHidden"></div>
+            <div class="px-sm-0 offset-sm-1 col-sm-10 offset-lg-0 col-lg-6">
               <div class="purpose-card">
                 <div class="p-rel">
                   <div
@@ -598,14 +658,18 @@
                 <div class="purpose-card__shadow"></div>
               </div>
             </div>
-            <div class="offset-lg-1 col-lg-1 borderLeft"></div>
+            <div class="offset-lg-1 col-lg-1 borderLeft mobileHidden"></div>
           </div>
         </div>
 
-        <div class="container borderLeft borderRight">
+        <div class="purpose__link-container container">
           <div class="row">
-            <div class="offset-lg-2 col-lg-1 borderLeft borderBottom"></div>
-            <div class="col-lg-6 borderBottom">
+            <div
+              class="purpose__link-divider purpose__link-divider--left mobileHidden offset-sm-0 px-sm-0 col-sm-1 offset-lg-0 col-lg-2"
+            ></div>
+            <div
+              class="purpose__current-strategy-wrapper px-sm-0 col-sm-9 col-lg-8"
+            >
               <div
                 class="purpose__current-strategy text-primary-color text-center"
               >
@@ -615,18 +679,20 @@
                   >
                 </p>
               </div>
+              <div class="purpose__current-strategy-circle circle"></div>
             </div>
-            <div class="col-lg-1 ps-0 borderBottom"></div>
-            <div class="col-lg-2 borderLeft borderBottom gradient-bottom"></div>
+            <div
+              class="purpose__link-divider purpose__link-divider--right px-sm-0 col-sm-2 col-lg-2 ps-0 gradient-bottom"
+            ></div>
           </div>
         </div>
       </section>
 
       <section id="basis" class="basis">
-        <div class="container basis__container borderLeft borderRight">
+        <div class="container basis__container">
           <div class="row">
             <div
-              class="basis__title-wrapper offset-3 col-8 offset-lg-1 col-lg-6"
+              class="basis__title-wrapper offset-3 col-8 offset-sm-1 col-sm-6 offset-lg-1 col-lg-6"
             >
               <div class="basis__title text-64 text-accent">
                 <h2>ОСНОВА ДІЯЛЬНОСТІ — ДОВІРА ТА ПРОЗОРІСТЬ</h2>
@@ -635,66 +701,84 @@
           </div>
         </div>
         <div class="basis__divider borderBottom width100"></div>
-        <div class="container">
+        <div
+          class="basis__mobile-image-container borderLeft borderRight desktopHidden"
+        >
           <div class="row">
-            <div
-              class="col-7 order-1 order-lg-1 basis__image-container offset-lg-2 pe-0 col-lg-5"
-            >
-              <img src="images/basis1.png" alt="" />
-            </div>
-            <div
-              class="offset-3 col-9 order-3 order-lg-2 basis__items-container offset-lg-0 col-lg-5"
-            >
-              <div class="basis__item d-flex text-primary-color text-lg">
-                <div class="basis__item-plus">
-                  <img src="images/icons/plus.svg" alt="plus" />
-                </div>
-                <span>
-                  Вирівнюємо наші інтереси з інтересами клієнтів, інвестуючи
-                  власний капітал в аналогічні стратегії.
-                </span>
-              </div>
-              <div class="basis__item d-flex text-primary-color text-lg">
-                <div class="basis__item-plus">
-                  <img src="images/icons/plus.svg" alt="plus" />
-                </div>
-                <span> Надаємо повну звітність щодо інвестицій. </span>
-              </div>
-            </div>
-            <div
-              class="offset-3 col-9 order-4 order-lg-3 basis__items-container offset-lg-2 col-lg-5"
-            >
-              <div class="basis__item d-flex text-primary-color text-lg">
-                <div class="basis__item-plus">
-                  <img src="images/icons/plus.svg" alt="plus" />
-                </div>
-                <span>
-                  Готові надати підтверджений трек-рекорд та дані для перевірки
-                  ділової репутації.
-                </span>
-              </div>
-              <div class="basis__item d-flex text-primary-color text-lg">
-                <div class="basis__item-plus">
-                  <img src="images/icons/plus.svg" alt="plus" />
-                </div>
-                <span>
-                  Дотримуємось суворих стандартів управління ризиками.
-                </span>
-              </div>
-            </div>
-            <div
-              class="offset-7 col-5 order-2 order-lg-4 offset-lg-0 basis__image-container ps-0 col-lg-3"
-            >
-              <img src="images/basis2.png" alt="" />
+            <div class="basis__mobile-image-wrapper col-12">
+              <img src="images/basisMobile.png" alt="basis mobile" />
             </div>
           </div>
         </div>
-        <div class="basis__divider borderBottom width100"></div>
-        <div class="basis__content">
-          <div class="basis__content-gradient gradient-right"></div>
-          <div class="container"></div>
-          <div class="basis__content-gradient"></div>
+        <div class="basis__items-wrapper basis__items-wrapper--border-bottom">
+          <div class="container borderLeft borderRight">
+            <div class="row">
+              <div
+                class="basis__image-container offset-sm-1 pe-0 col-sm-6 offset-lg-2 col-lg-5 mobileHidden"
+              >
+                <img src="images/basis1.png" alt="" />
+              </div>
+              <div
+                class="basis__items-container offset-3 col-9 order-3 order-sm-2 offset-sm-0 col-sm-5"
+              >
+                <div class="basis__item d-flex text-primary-color text-lg">
+                  <div class="basis__item-plus">
+                    <img src="images/icons/plus.svg" alt="plus" />
+                  </div>
+                  <span>
+                    Вирівнюємо наші інтереси з інтересами клієнтів, інвестуючи
+                    власний капітал в аналогічні стратегії.
+                  </span>
+                </div>
+                <div class="basis__item d-flex text-primary-color text-lg">
+                  <div class="basis__item-plus">
+                    <img src="images/icons/plus.svg" alt="plus" />
+                  </div>
+                  <span> Надаємо повну звітність щодо інвестицій. </span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <div class="basis__items-wrapper">
+          <div
+            class="basis__items-wrapper-divider gradient-right mobileHidden"
+          ></div>
+          <div class="basis__items-container container borderLeft borderRight">
+            <div class="row">
+              <div
+                class="basis__items-container offset-3 col-9 order-4 order-sm-3 offset-sm-1 col-sm-6 offset-lg-2 col-lg-5"
+              >
+                <div class="basis__item d-flex text-primary-color text-lg">
+                  <div class="basis__item-plus">
+                    <img src="images/icons/plus.svg" alt="plus" />
+                  </div>
+                  <span>
+                    Готові надати підтверджений трек-рекорд та дані для
+                    перевірки ділової репутації.
+                  </span>
+                </div>
+                <div class="basis__item d-flex text-primary-color text-lg">
+                  <div class="basis__item-plus">
+                    <img src="images/icons/plus.svg" alt="plus" />
+                  </div>
+                  <span>
+                    Дотримуємось суворих стандартів управління ризиками.
+                  </span>
+                </div>
+              </div>
+              <div
+                class="basis__image-container order-sm-4 offset-sm-0 ps-0 col-sm-4 col-lg-3 mobileHidden"
+              >
+                <img src="images/basis2.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="basis__items-wrapper-divider mobileHidden"></div>
+        </div>
+
+        <div class="basis__divider borderBottom width100"></div>
       </section>
 
       <div id="contacts" class="contacts">
@@ -762,7 +846,9 @@
       <div id="formBlock" class="form-block">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-12 offset-lg-4 px-lg-0 col-lg-4">
+            <div
+              class="col-12 offset-sm-3 px-sm-0 col-sm-5 offset-lg-4 px-lg-0 col-lg-4"
+            >
               <div class="form">
                 <div class="form__logo">
                   <img src="images/logo.png" alt="logo" />
@@ -824,10 +910,10 @@
                 </div>
               </div>
             </div>
-            <div class="offset-lg-1 col-lg-3 form-block__text">
+            <div class="offset-sm-1 col-sm-3 form-block__text">
               <div class="form-block__text-item p-rel">
                 <div
-                  class="mobileHidden form-block__text-item-background gradient-left"
+                  class="mobileHidden form-block__text-item-background"
                 ></div>
                 <div
                   class="form-block__text-item-title p-rel text-white text-bold"
@@ -858,7 +944,7 @@
       </div>
 
       <div id="quickContact" class="quick-contact">
-        <div class="container mobileHidden">
+        <div class="container tabletHidden mobileHidden">
           <div class="row">
             <div class="offset-lg-1 col-lg-4 text-lg text-bold text-white">
               <p>

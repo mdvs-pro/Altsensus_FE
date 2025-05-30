@@ -172,10 +172,10 @@
 }
 
 @media (max-width: 991px) {
-    .why-us {
-        padding-top: 0;
-        padding-bottom: 6rem;
-    }
+  .why-us {
+    padding-top: 0;
+    padding-bottom: 6rem;
+  }
 
   .why-us__animation-container {
     padding-top: 0.5rem;
@@ -358,10 +358,10 @@
     position: absolute;
     bottom: 0;
     left: 50%;
-    width: 100vw;
-    height: 0.1rem;
     transform: translateX(-50%);
     background-color: var(--border-color);
+    width: 100vw;
+    height: 0.1rem;
   }
 
   .why-us__mobile-button {

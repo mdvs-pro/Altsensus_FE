@@ -2,7 +2,25 @@
   background: url("../../../../images/stategyBackground.png") no-repeat center
     center;
   background-size: cover;
-  padding: 7.8rem 0;
+}
+
+.stategy__wrapper {
+  display: flex;
+  position: relative;
+}
+
+.stategy__side-divider {
+  display: none;
+  flex: 1 1 0%;
+}
+
+.stategy__container {
+  flex: 0 0 100%;
+}
+
+.stategy__row {
+  padding-top: 7.8rem;
+  padding-bottom: 7.8rem;
 }
 
 .stategy__background {
@@ -27,8 +45,42 @@
   padding: 0 8rem;
 }
 
-@media (max-width: 576px) {
-  .stategy {
+.strategy__description-divider {
+  display: none;
+}
+
+@media (max-width: 991px) {
+  .stategy__side-divider {
+    display: block;
+  }
+  .stategy__row {
+    padding-top: 5.6rem;
+    padding-bottom: 5.6rem;
+  }
+
+  .stategy__title * {
+    font-size: var(--font-size-22);
+  }
+
+  .stategy__description {
+    padding: 0 2rem;
+    font-size: var(--font-size-16);
+  }
+
+  .strategy__description-divider {
+    display: block;
+    position: absolute;
+    top: 0;
+    height: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .stategy__side-divider {
+    display: none;
+  }
+
+  .stategy__row {
     padding-top: 3rem;
     padding-bottom: 0;
   }
@@ -41,5 +93,9 @@
     margin-bottom: 4rem;
     padding: 0 1.5rem;
     font-size: var(--font-size-12);
+  }
+
+  .strategy__description-divider {
+    display: none;
   }
 }

@@ -149,6 +149,27 @@
   height: 50%;
 }
 
+.risks__item-circle-lineHorizontal {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 0.1rem;
+}
+
+.risks__item-circle-lineVertical {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--primary-color);
+  width: 0.1rem;
+  height: 100%;
+}
+
 .risks__items-divider {
   position: absolute;
   transform: translateX(-50%);

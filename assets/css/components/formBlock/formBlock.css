@@ -37,8 +37,37 @@
   line-height: 1.5;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 991px) {
   .form-block {
+    padding-top: 1.6rem;
+    padding-bottom: 3.8rem;
+  }
+
+  .form-block__text-item {
+    padding: 0;
+    padding-top: 0rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .form-block__text-item-title,
+  .form-block__text-item-title * {
+    font-size: var(--font-size-14);
+  }
+
+  .form-block__text-item-content,
+  .form-block__text-item-content * {
+    font-size: var(--font-size-12);
+    line-height: normal;
+  }
+
+  .form-block__text-item p:first-child {
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .form-block {
+    background-image: url("../../../../images/formBlockBgTablet.png");
     padding-top: 3rem;
     padding-bottom: 2.9rem;
   }
