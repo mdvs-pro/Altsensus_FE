@@ -67,7 +67,7 @@
 
 @media (max-width: 575px) {
   .form-block {
-    background-image: url("../../../../images/formBlockBgTablet.png");
+    background-image: url("../../../../images/formBlockBgMobile.png");
     padding-top: 3rem;
     padding-bottom: 2.9rem;
   }
@@ -79,7 +79,7 @@
 
   .form-block__text-item {
     padding: 2.2rem;
-    width: 70%;
+    width: 50%;
   }
 
   .form-block__text-item:first-child {

@@ -93,19 +93,6 @@ ul {
   width: 100%;
 }
 
-/* .borderBottom {
-  border-bottom: 0.1rem solid var(--border-color);
-}
-.borderTop {
-  border-top: 0.1rem solid var(--border-color);
-}
-.borderLeft {
-  border-left: 0.1rem solid var(--border-color);
-}
-.borderRight {
-  border-right: 0.1rem solid var(--border-color);
-} */
-
 .borderBottom {
   border-bottom: 0.1rem solid var(--border-color);
 }
@@ -117,9 +104,6 @@ ul {
 }
 .borderRight {
   border-right: 0.1rem solid var(--border-color);
-}
-
-@media (min-width: 577px) {
 }
 
 .overflowHidden {
