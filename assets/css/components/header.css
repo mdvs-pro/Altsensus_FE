@@ -4,8 +4,8 @@
 
 .header {
   position: relative;
-  height: var(--header-height);
   z-index: 10;
+  height: var(--header-height);
 }
 
 @media (max-width: 991px) {
@@ -117,12 +117,12 @@
 }
 
 .header__burger-wrapper {
+  display: flex;
   position: absolute;
-  width: 100%;
   top: 105%;
   left: 0;
-  display: flex;
   justify-content: flex-end;
+  width: 100%;
   overflow: hidden;
   pointer-events: none;
 }
@@ -131,15 +131,15 @@
   position: relative;
 }
 
-.header__burger-nav{
-  pointer-events: all;
+.header__burger-nav {
   position: relative;
-  padding: 2rem 1rem;
   top: 0;
   right: -102%;
-  background-color: #fff;
-  border-radius: 1rem;
   transition: all 0.3s ease;
+  border-radius: 1rem;
+  background-color: #fff;
+  padding: 2rem 1rem;
+  pointer-events: all;
 }
 
 .showBurgerMenu .header__burger-nav {
@@ -151,9 +151,9 @@
   justify-content: center;
   align-items: center;
   justify-self: center;
+  margin-bottom: 2rem;
   width: 13rem;
   list-style: none;
-  margin-bottom: 2rem;
   text-align: center;
 }
 

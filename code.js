@@ -1,9 +1,8 @@
-'use strickt';
+"use strickt";
 
-const burgerButton = document.querySelector('#burgerButton');
-const header = document.querySelector('#header');
+const burgerButton = document.querySelector("#burgerButton");
+const header = document.querySelector("#header");
 
-
-burgerButton.addEventListener('click', () => {
-    header.classList.toggle('showBurgerMenu');
+burgerButton.addEventListener("click", () => {
+  header.classList.toggle("showBurgerMenu");
 });
