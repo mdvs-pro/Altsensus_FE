@@ -1,4 +1,8 @@
-.btn {
+.btn a,
+.btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition:
     background-color 0.3s ease,
     color 0.1s ease;
@@ -11,11 +15,13 @@
   color: #fff;
 }
 
-.btn:hover {
+.btn:hover a,
+.btn:hover button {
   background-color: var(--accent-color);
   color: #fff;
 }
 
-.btn--border {
+.btn--border a,
+.btn--border button {
   border: 0.1rem solid #ededed;
 }

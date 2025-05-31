@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="assets/css/components/main/main.css" />
   </head>
   <body>
-    <header class="header desktopHidden">
+    <header id="header" class="header">
       <div class="container">
         <div class="header__wrapper">
           <div class="header__logo-wrapper">
             <img src="images/logo.png" alt="Logo" />
           </div>
-          <nav class="header__nav col-lg-6">
+          <nav class="header__nav col-lg-6 mobileHidden tabletHidden">
             <ul>
               <li><a href="#story">Історія</a></li>
               <li><a href="#philosophy">Філософія</a></li>
@@ -22,9 +22,28 @@
               <li><a href="#contact">Команда</a></li>
             </ul>
           </nav>
-          <div class="header__button-wrapper">
-            <button class="btn header__button">Контакти</button>
+          <div class="header__button-wrapper btn mobileHidden tabletHidden">
+            <a>Контакти</a>
           </div>
+          <div class="header__burger-button">
+            <button id="burgerButton">
+              <div class="header__burger-button-line"></div>
+              <div class="header__burger-button-line"></div>
+              <div class="header__burger-button-line"></div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="header__burger-wrapper">
+        <div class="header__burger-menu">
+          <nav class="header__burger-nav">
+            <ul>
+              <li><a href="#story">Історія</a></li>
+              <li><a href="#philosophy">Філософія</a></li>
+              <li><a href="#services">Підхід</a></li>
+              <li><a href="#contact">Команда</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>
@@ -62,11 +81,11 @@
 
           <div class="row hero__button-wrapper">
             <div class="offset-sm-3 col-sm-6 offset-lg-1 col-lg-2">
-              <button
+              <div
                 class="hero__button btn btn--border text-bold text-white text-md"
               >
-                Як це працює?
-              </button>
+                <a>Як це працює?</a>
+              </div>
             </div>
           </div>
         </div>
@@ -79,7 +98,7 @@
                 <h2>НАША <i>ІСТОРІЯ</i></h2>
               </div>
               <div
-                class="hero__story-text order-4 order-sm-2 text-white text-lg offset-1 col-10 offset-sm-1 col-sm-6 offset-lg-3 col-sm-5"
+                class="hero__story-text order-4 order-sm-2 text-white text-lg offset-1 col-10 offset-sm-1 col-sm-6 offset-lg-3 col-lg-5"
               >
                 <p>
                   <b>AltSensus Capital</b> — це команда професіоналів із
@@ -164,8 +183,8 @@
         <div class="container">
           <div class="about-name__row row">
             <div class="ps-0 col-4 col-sm-2 col-lg-2 pe-0">
-              <div class="about-name__pin-button-wrapper">
-                <button class="btn">
+              <div class="about-name__pin-button-wrapper btn">
+                <button>
                   <div class="about-name__pin-icon"></div>
                 </button>
               </div>
@@ -905,8 +924,8 @@
                   </div>
                 </div>
 
-                <div class="form__button-wrapper">
-                  <button class="btn">Зв'язатися</button>
+                <div class="form__button-wrapper btn">
+                  <button>Зв'язатися</button>
                 </div>
               </div>
             </div>
@@ -1082,4 +1101,5 @@
       </div>
     </footer>
   </body>
+  <script src="code.js"></script>
 </html>

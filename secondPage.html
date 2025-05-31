@@ -11,13 +11,13 @@
     />
   </head>
   <body>
-    <header class="header">
+    <header id="header" class="header">
       <div class="container">
         <div class="header__wrapper">
           <div class="header__logo-wrapper">
             <img src="images/logo.png" alt="Logo" />
           </div>
-          <nav class="header__nav col-lg-6">
+          <nav class="header__nav col-lg-6 mobileHidden tabletHidden">
             <ul>
               <li><a href="#story">Історія</a></li>
               <li><a href="#philosophy">Філософія</a></li>
@@ -25,9 +25,28 @@
               <li><a href="#contact">Команда</a></li>
             </ul>
           </nav>
-          <div class="header__button-wrapper">
-            <button class="btn header__button">Контакти</button>
+          <div class="header__button-wrapper btn mobileHidden tabletHidden">
+            <a>Контакти</a>
           </div>
+          <div class="header__burger-button">
+            <button id="burgerButton">
+              <div class="header__burger-button-line"></div>
+              <div class="header__burger-button-line"></div>
+              <div class="header__burger-button-line"></div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="header__burger-wrapper">
+        <div class="header__burger-menu">
+          <nav class="header__burger-nav">
+            <ul>
+              <li><a href="#story">Історія</a></li>
+              <li><a href="#philosophy">Філософія</a></li>
+              <li><a href="#services">Підхід</a></li>
+              <li><a href="#contact">Команда</a></li>
+            </ul>
+          </nav>
         </div>
       </div>
     </header>

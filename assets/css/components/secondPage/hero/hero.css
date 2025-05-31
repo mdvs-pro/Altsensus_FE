@@ -1,5 +1,5 @@
 .hero {
-      background-image: url("../../../../../images/hero2.png");
+  background-image: url("../../../../../images/hero2.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,8 +45,8 @@
 
 @media (max-width: 576px) {
   .hero {
-    height: calc(100vh - 4rem);
     background-image: url("../../../../../images/hero2Mobile.png");
+    height: calc(100vh - 4rem);
   }
 
   .hero__team {

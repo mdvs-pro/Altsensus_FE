@@ -145,7 +145,7 @@
   }
 }
 
-.form__button-wrapper .btn {
+.form__button-wrapper.btn {
   height: 6rem;
   font-size: 2rem;
 }
@@ -236,7 +236,7 @@
   }
 
   .form__button-wrapper,
-  .form__button-wrapper .btn {
+  .form__button-wrapper.btn {
     height: 2.6rem;
     font-size: var(--font-size-10);
   }
@@ -262,7 +262,7 @@
   }
 
   .form__button-wrapper,
-  .form__button-wrapper .btn {
+  .form__button-wrapper.btn {
     height: 3.3rem;
     font-size: 1.2rem;
   }

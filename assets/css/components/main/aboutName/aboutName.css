@@ -31,7 +31,7 @@
   border-radius: 0;
 }
 
-.about-name__pin-button-wrapper .btn .about-name__pin-icon {
+.about-name__pin-button-wrapper.btn .about-name__pin-icon {
   mask: url("../../../../../images/fi_bookmark.svg") no-repeat center;
   -webkit-mask: url("../../../../../images/fi_bookmark.svg") no-repeat center;
   mask-size: contain;
