@@ -85,8 +85,15 @@
 }
 
 .header__burger-button {
+  display: none;
   width: 2.4rem;
   height: 2.4rem;
+}
+
+@media (max-width: 991px) {
+  .header__burger-button {
+    display: block;
+  }
 }
 
 .header__burger-button button {
