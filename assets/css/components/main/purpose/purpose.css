@@ -7,6 +7,9 @@
 .purpose__title {
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+.purpose__title * {
+  font-weight: 400;
   font-size: var(--font-size-50);
 }
 

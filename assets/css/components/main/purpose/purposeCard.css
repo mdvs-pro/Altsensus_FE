@@ -78,7 +78,8 @@
   font-size: var(--font-size-14);
 }
 
-.purpose-card__description {
+.purpose-card__description,
+.purpose-card__description * {
   font-size: var(--font-size-22);
 }
 

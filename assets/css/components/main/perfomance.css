@@ -33,6 +33,7 @@
 
 .perfomance__title h2 {
   font-size: var(--font-size-xxl);
+  line-height: 100%;
 }
 
 @media (max-width: 991px) {

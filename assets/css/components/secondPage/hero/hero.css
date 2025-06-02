@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("../../../../../images/hero2.png");
+  background-image: url("../../../../../images/hero2.webp");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,7 +23,7 @@
 
 @media (max-width: 991px) {
   .hero {
-    background-image: url("../../../../../images/hero2Tablet.png");
+    background-image: url("../../../../../images/hero2Tablet.webp");
     height: calc(100vh - 5rem);
   }
 
@@ -45,7 +45,7 @@
 
 @media (max-width: 576px) {
   .hero {
-    background-image: url("../../../../../images/hero2Mobile.png");
+    background-image: url("../../../../../images/hero2Mobile.webp");
     height: calc(100vh - 4rem);
   }
 

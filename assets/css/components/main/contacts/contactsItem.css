@@ -107,6 +107,10 @@
 }
 
 @media (max-width: 991px) {
+  .contacts-item {
+    padding-right: 0.38rem;
+    padding-left: 0.38rem;
+  }
   .contacts-item__name-plate {
     border-radius: 0.5rem;
     padding: 1.1rem 1.9rem;
@@ -135,6 +139,11 @@
 }
 
 @media (max-width: 575px) {
+  .contacts-item {
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
+  }
+
   .contacts-item__name-plate {
     border-radius: 0.3rem;
     padding: 0.6rem 1.2rem;

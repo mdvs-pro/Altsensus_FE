@@ -1,5 +1,5 @@
 .advantages {
-  background-image: url("../../../../../images/advantages.png");
+  background-image: url("../../../../../images/advantages.webp");
   background-position: top left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -113,7 +113,7 @@
 
 @media (max-width: 575px) {
   .advantages {
-    background-image: url("../../../../../images/advantagesMobile.png");
+    background-image: url("../../../../../images/advantagesMobile.webp");
     background-position: top left;
     background-size: cover;
     background-repeat: no-repeat;

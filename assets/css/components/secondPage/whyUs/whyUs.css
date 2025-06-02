@@ -22,6 +22,7 @@
   justify-content: space-around;
   transform: translateY(-50%);
   width: 100%;
+  user-select: none;
 }
 
 .why-us__animation-wrapper--1 {

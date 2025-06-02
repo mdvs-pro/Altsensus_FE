@@ -1,7 +1,7 @@
 @import url("./form.css");
 
 .form-block {
-  background-image: url("../../../../images/formBlockBg.png");
+  background-image: url("../../../../images/formBlockBg.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -67,7 +67,7 @@
 
 @media (max-width: 575px) {
   .form-block {
-    background-image: url("../../../../images/formBlockBgMobile.png");
+    background-image: url("../../../../images/formBlockBgMobile.webp");
     padding-top: 3rem;
     padding-bottom: 2.9rem;
   }
