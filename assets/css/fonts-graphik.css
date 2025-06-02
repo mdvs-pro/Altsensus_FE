@@ -2,29 +2,29 @@
 
 /* Graphik Regular */
 @font-face {
-  font-family: "Graphik";
   font-style: normal;
   font-weight: 400;
   src: url("../fonts/graphik/Graphik-Regular-Desktop.otf") format("opentype");
+  font-family: "Graphik";
   font-display: swap;
 }
 
 /* Graphik Bold */
 @font-face {
-  font-family: "Graphik";
   font-style: normal;
   font-weight: 700;
   src: url("../fonts/graphik/Graphik-Bold-Desktop.otf") format("opentype");
+  font-family: "Graphik";
   font-display: swap;
 }
 
 /* Utility classes for different weights */
-.graphik-regular { 
+.graphik-regular {
+  font-weight: 400;
   font-family: "Graphik", sans-serif;
-  font-weight: 400; 
 }
 
-.graphik-bold { 
+.graphik-bold {
+  font-weight: 700;
   font-family: "Graphik", sans-serif;
-  font-weight: 700; 
-} 
+}

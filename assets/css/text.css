@@ -53,16 +53,6 @@
 }
 
 @media (max-width: 991px) {
-  .text-sm,
-  .text-sm > * {
-    font-size: calc(var(--font-size-sm) * 0.9);
-  }
-
-  .text-md,
-  .text-md > * {
-    font-size: calc(var(--font-size-md) * 0.9);
-  }
-
   .text-lg,
   .text-lg > * {
     font-size: 1.4rem;
@@ -104,7 +94,7 @@
 /* Font Weights */
 .text-thin,
 .text-thin * {
-  font-weight: 300;
+  font-weight: 400;
 }
 
 .text-normal,
