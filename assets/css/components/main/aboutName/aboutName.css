@@ -24,7 +24,7 @@
   height: auto;
 }
 
-.about-name__pin-button-wrapper .btn {
+.about-name__pin-button-wrapper button {
   display: flex;
   justify-content: center;
   align-items: center;

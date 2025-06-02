@@ -12,6 +12,7 @@
 }
 
 .basis__title * {
+  font-weight: 400;
   font-size: var(--font-size-64);
 }
 

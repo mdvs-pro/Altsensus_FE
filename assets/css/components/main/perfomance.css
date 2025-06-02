@@ -9,6 +9,14 @@
   font-size: var(--font-size-xxl);
 }
 
+@media (max-width: 991px) {
+  .perfomance__title {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: var(--font-size-50);
+  }
+}
+
 @media (max-width: 575px) {
   .perfomance .container {
     padding-right: 0;
