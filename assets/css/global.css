@@ -10,6 +10,7 @@
 @import url("./components/formBlock/formBlock.css");
 @import url("./components/quickContact/quickContact.css");
 @import url("./components/footer.css");
+@import url("./components/scrollToTop.css");
 
 html {
   scroll-behavior: smooth;

@@ -162,7 +162,7 @@
   height: 6rem;
 }
 
-.why-us__desktop-button a {
+.why-us__desktop-button * {
   transition: all 0.1s ease;
   border-radius: 0;
   color: var(--accent-color);
