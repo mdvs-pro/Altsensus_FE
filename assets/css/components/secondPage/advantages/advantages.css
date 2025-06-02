@@ -1,6 +1,6 @@
 .advantages {
   background-image: url("../../../../../images/advantages.webp");
-  background-position: top left;
+  background-position: left top ;
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -21,7 +21,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
-  margin-top: 49.4rem;
+  margin-top: 49rem;
   margin-bottom: 11rem;
 }
 
@@ -114,7 +114,7 @@
 @media (max-width: 575px) {
   .advantages {
     background-image: url("../../../../../images/advantagesMobile.webp");
-    background-position: top left;
+    background-position: -10rem top ;
     background-size: cover;
     background-repeat: no-repeat;
   }

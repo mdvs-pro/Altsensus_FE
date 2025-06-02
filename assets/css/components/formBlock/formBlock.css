@@ -1,12 +1,27 @@
 @import url("./form.css");
 
 .form-block {
-  background-image: url("../../../../images/formBlockBg.webp");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  position: relative;
+
   padding-top: 6rem;
   padding-bottom: 8.5rem;
+  overflow: hidden;
+}
+
+.form-block .container {
+  position: relative;
+}
+
+.form-block__background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url("../../../../images/formBlockBg.webp");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 
 .form-block__text-item {
@@ -67,9 +82,13 @@
 
 @media (max-width: 575px) {
   .form-block {
-    background-image: url("../../../../images/formBlockBgMobile.webp");
     padding-top: 3rem;
     padding-bottom: 2.9rem;
+  }
+
+  .form-block__background {
+    background-image: url("../../../../images/formBlockBgMobile.webp");
+    background-position: -45rem center;
   }
 
   .form-block__text {
@@ -79,7 +98,7 @@
 
   .form-block__text-item {
     padding: 2.2rem;
-    width: 50%;
+    width: 80%;
   }
 
   .form-block__text-item:first-child {

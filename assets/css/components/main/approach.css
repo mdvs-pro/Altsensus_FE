@@ -41,7 +41,7 @@
 }
 
 .approach__header-text * {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1em;
 }
 
 .approach__header-text *:last-child {
@@ -64,8 +64,13 @@
 }
 
 @media (max-width: 575px) {
+  .approach__header-wrapper   {
+    align-items: flex-start;
+  }
+
   .approach__title h2 {
     font-size: var(--font-size-16);
+    line-height:normal;
   }
 }
 

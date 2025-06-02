@@ -1,26 +1,26 @@
 .scroll-to-top {
+  display: flex;
   position: fixed;
   top: 3rem;
   right: 3rem;
-  z-index: 1000;
-  display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s ease;
-  opacity: 0;
-  visibility: hidden;
   transform: translateY(2rem);
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1000;
+  transition: all 0.3s ease;
+  cursor: pointer;
   border: none;
   background: transparent;
   width: 4.6rem;
   height: 4.5rem;
-  cursor: pointer;
 }
 
 .scroll-to-top.visible {
-  opacity: 1;
-  visibility: visible;
   transform: translateY(0);
+  visibility: visible;
+  opacity: 1;
 }
 
 .scroll-to-top:hover {
@@ -36,9 +36,9 @@
 }
 
 .scroll-to-top svg {
+  transition: all 0.3s ease;
   width: 100%;
   height: 100%;
-  transition: all 0.3s ease;
 }
 
 .scroll-to-top svg circle,
@@ -48,8 +48,8 @@
 
 @media (max-width: 991px) {
   .scroll-to-top {
-    bottom: 2rem;
     right: 2rem;
+    bottom: 2rem;
     width: 4rem;
     height: 3.9rem;
   }
@@ -57,8 +57,8 @@
 
 @media (max-width: 575px) {
   .scroll-to-top {
-    bottom: 1.5rem;
     right: 1.5rem;
+    bottom: 1.5rem;
     width: 3.5rem;
     height: 3.4rem;
   }

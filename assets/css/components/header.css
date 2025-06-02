@@ -77,10 +77,10 @@
 }
 
 .header__button-wrapper.btn {
+  width: 14.9rem;
+  height: 4rem;
   font-weight: bold;
   font-size: var(--font-size-16);
-    width: 14.9rem;
-  height: 4rem;
 }
 
 .header__burger-button {

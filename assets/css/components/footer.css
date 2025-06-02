@@ -24,6 +24,7 @@
 .footer__description,
 .footer__description * {
   opacity: 0.5;
+  font-weight: 400;
   font-size: var(--font-size-12);
 }
 
@@ -67,7 +68,7 @@
   font-size: var(--font-size-18);
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .footer {
     padding: 6rem 0;
   }

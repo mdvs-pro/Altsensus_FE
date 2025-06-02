@@ -22,12 +22,14 @@ if (scrollToTopButton) {
   // Function to show/hide scroll to top button based on scroll position
   function toggleScrollToTopButton() {
     // Check for different second sections based on the page
-    const secondSection = document.querySelector("#philosophy") || document.querySelector("#copytrading");
-    
+    const secondSection =
+      document.querySelector("#philosophy") ||
+      document.querySelector("#copytrading");
+
     if (secondSection) {
       const secondSectionTop = secondSection.offsetTop;
       const scrollPosition = window.pageYOffset;
-      
+
       // Show button when we reach the second section
       if (scrollPosition >= secondSectionTop - 100) {
         scrollToTopButton.classList.add("visible");
@@ -44,7 +46,7 @@ if (scrollToTopButton) {
   scrollToTopButton.addEventListener("click", () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth"
+      behavior: "smooth",
     });
   });
 

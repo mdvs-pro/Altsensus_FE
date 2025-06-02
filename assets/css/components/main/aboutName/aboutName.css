@@ -144,6 +144,10 @@
   height: auto;
 }
 
+.about-name__description-text p:first-child {
+  margin-bottom: 1em;
+}
+
 .about-name__description-circle {
   position: absolute;
 

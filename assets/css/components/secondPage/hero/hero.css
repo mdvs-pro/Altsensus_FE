@@ -45,7 +45,8 @@
   .hero__background {
     background-image: url("../../../../../images/hero2Tablet.webp");
     background-size: cover;
-    width: 182.5rem;
+    background-position: -65rem bottom;    
+    width: 100%;
   }
 
   .hero__team {
@@ -61,17 +62,20 @@
   .hero__title,
   .hero__title * {
     font-size: var(--font-size-22);
+    font-style: italic;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 575px) {
   .hero {
     height: calc(100vh - 4rem);
   }
 
   .hero__background {
-    background-image: url("../../../../../images/hero2Tablet.webp");
+    background-image: url("../../../../../images/hero2Mobile.webp");
     width: 182.5rem;
+    background-position: 2rem bottom;
+    height: 100vh;
   }
 
   .hero__team {
