@@ -38,6 +38,7 @@
 .quick-contact__input-wrapper form {
   display: flex;
   position: relative;
+  height: 100%;
 }
 
 .quick-contact__input-wrapper form * {
@@ -62,7 +63,7 @@
 
 .quick-contact__input-wrapper button {
   flex: 0 0;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
   cursor: pointer;
   border: none;
   border-left: 0.1rem solid var(--accent-color);

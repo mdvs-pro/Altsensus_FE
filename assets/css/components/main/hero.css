@@ -163,8 +163,8 @@
 
 @media (max-width: 991px) {
   .hero__button-wrapper {
-    margin-top: 5rem;
     justify-content: center;
+    margin-top: 5rem;
     height: 5.5rem;
   }
 }
@@ -186,8 +186,8 @@
 }
 
 .hero__button a {
-  font-size: var(--font-size-16);
   margin-right: 4.3rem;
+  font-size: var(--font-size-16);
 }
 
 .hero__button:hover path {
@@ -239,6 +239,10 @@
   }
 }
 
+.hero__story-title {
+  position: relative;
+}
+
 .hero__story-title h2 {
   margin: 0;
   margin-top: 1.5rem;
@@ -247,6 +251,37 @@
   font-size: var(--font-size-106);
   line-height: 9.5rem;
   letter-spacing: -0.5rem;
+}
+
+.hero__story-arrow {
+  position: absolute;
+  right: 3.8rem;
+  bottom: 8rem;
+  transition: all 0.3s ease;
+  width: 4.3rem;
+  height: 4.3rem;
+}
+.hero__story-arrow svg {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 991px) {
+  .hero__story-arrow {
+    right: 2rem;
+    bottom: 2rem;
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .hero__story-arrow {
+    right: 1.5rem;
+    bottom: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
 }
 
 .hero__story-text * {

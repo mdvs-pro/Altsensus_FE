@@ -15,7 +15,7 @@
 
 .btn a,
 .btn button {
-  transition: color 0.1s ease;
+  transition: color 0.3s ease;
   border: none;
   background: none;
   color: #fff;

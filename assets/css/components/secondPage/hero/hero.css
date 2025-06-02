@@ -44,8 +44,8 @@
 
   .hero__background {
     background-image: url("../../../../../images/hero2Tablet.webp");
+    background-position: -65rem bottom;
     background-size: cover;
-    background-position: -65rem bottom;    
     width: 100%;
   }
 
@@ -61,8 +61,8 @@
 
   .hero__title,
   .hero__title * {
-    font-size: var(--font-size-22);
     font-style: italic;
+    font-size: var(--font-size-22);
   }
 }
 
@@ -73,8 +73,8 @@
 
   .hero__background {
     background-image: url("../../../../../images/hero2Mobile.webp");
-    width: 182.5rem;
     background-position: 2rem bottom;
+    width: 182.5rem;
     height: 100vh;
   }
 

@@ -52,7 +52,7 @@
 }
 
 .purpose__current-strategy a {
-  transition: color 0.1s ease;
+  transition: color 0.3s ease;
   cursor: pointer;
   text-decoration: underline;
 }

@@ -61,7 +61,7 @@
   top: 0;
   left: 0;
   opacity: 0.85;
-  transition: left 0.2s ease;
+  transition: left 0.3s ease;
   background-image: linear-gradient(
     to right,
     rgba(255, 79, 47, 1) 0%,
@@ -90,7 +90,7 @@
   mask-image: url("../../../../../images/icons/linkedin.svg");
   mask-size: cover;
   mask-repeat: no-repeat;
-  transition: background-color 0.1s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
   background-color: var(--primary-color);
   width: 3.2rem;
   height: 3.2rem;

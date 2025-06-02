@@ -11,6 +11,7 @@
 @import url("./components/quickContact/quickContact.css");
 @import url("./components/footer.css");
 @import url("./components/scrollToTop.css");
+@import url("./components/langSwitcher.css");
 
 html {
   scroll-behavior: smooth;

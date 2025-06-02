@@ -4,38 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>altsensus</title>
-
-    <!-- Favicons -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/icons/favIcons/16favicon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/icons/favIcons/32favicon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="64x64"
-      href="images/icons/favIcons/64favicon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="128x128"
-      href="images/icons/favIcons/128favicon.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/icons/favIcons/180favicon.png"
-    />
-
     <link rel="stylesheet" href="assets/css/global.css" />
     <link rel="stylesheet" href="assets/css/components/main/main.css" />
   </head>
@@ -44,67 +12,44 @@
       <div class="container">
         <div class="header__wrapper">
           <div class="header__logo-wrapper">
-            <a href="/main.html">
-              <img src="images/logo.png" alt="Logo" />
-            </a>
+            <img src="images/logo.png" alt="Logo" />
           </div>
-          <nav class="header__nav col-lg-6 mobileHidden tabletHidden">
+          <nav class="header__nav col-xl-6">
             <ul>
               <li><a href="#story">Історія</a></li>
               <li><a href="#philosophy">Філософія</a></li>
-              <li><a href="#approach">Підхід</a></li>
-              <li><a href="#contacts">Команда</a></li>
+              <li><a href="#services">Підхід</a></li>
+              <li><a href="#contact">Команда</a></li>
             </ul>
           </nav>
-          <div class="header__button-wrapper btn mobileHidden tabletHidden">
-            <a>Контакти</a>
+          <div class="header__button-wrapper">
+            <button class="btn header__button">Контакти</button>
           </div>
-          <div class="header__burger-button">
-            <button id="burgerButton">
-              <div class="header__burger-button-line"></div>
-              <div class="header__burger-button-line"></div>
-              <div class="header__burger-button-line"></div>
-            </button>
-          </div>
-        </div>
-      </div>
-      <div class="header__burger-wrapper">
-        <div class="header__burger-menu">
-          <nav id="burgerNav" class="header__burger-nav">
-            <ul>
-              <li><a href="#story">Історія</a></li>
-              <li><a href="#philosophy">Філософія</a></li>
-              <li><a href="#approach">Підхід</a></li>
-              <li><a href="#contacts">Команда</a></li>
-            </ul>
-          </nav>
         </div>
       </div>
     </header>
 
     <main>
-      <section id="hero" class="hero">
-        <div class="hero__background"></div>
+      <section id="home" class="hero">
         <div class="hero__main container">
           <div class="row hero__title-wrapper">
-            <div class="text-sm-center offset-lg-1 col-lg-8">
+            <div class="offset-xl-1 col-xl-8">
               <h1>ALT<i>SENSUS</i></h1>
             </div>
           </div>
 
           <div class="row hero__subtitle">
-            <div
-              class="hero__subtitle-wrapper d-flex col-10 offset-1 col-sm-6 offset-sm-3 offset-lg-1 col-lg-7"
-            >
+            <div class="d-flex align-items-end offset-xl-1 col-xl-7">
               <h2>CAPITAL</h2>
-              <p>Альтернативний погляд на управління цифровими активами</p>
+              <p>
+                Альтернативний погляд <br />
+                на управління цифровими активами
+              </p>
             </div>
           </div>
 
           <div class="row">
-            <div
-              class="hero__text text-sm-center text-thin text-white col-sm-6 offset-sm-3 offset-lg-1 col-lg-4"
-            >
+            <div class="text-md text-thin text-white offset-xl-1 col-xl-4">
               <p>
                 Інвестиційні рішення для кваліфікованих інвесторів, орієнтовані
                 на гнучкість, технологічну адаптацію та стратегічне випередження
@@ -114,49 +59,34 @@
           </div>
 
           <div class="row hero__button-wrapper">
-            <div class="offset-lg-1">
-              <div
-                class="hero__button btn btn--border btn--white-hover text-bold text-white"
+            <div class="offset-xl-1 col-xl-2">
+              <button
+                class="hero__button btn btn--border text-bold text-white text-md"
               >
-                <a href="/secondPage.html">Як це працює?</a>
-                <svg
-                  width="22"
-                  height="22"
-                  viewBox="0 0 22 22"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="11" cy="11" r="11" fill="#FF4F2F" />
-                  <path
-                    d="M9 7L13.5 11.125L9 15.25"
-                    stroke="#1A1D26"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </div>
+                Як це працює?
+              </button>
             </div>
           </div>
         </div>
-        <div id="story" class="p-rel container">
+        <div id="story" class="hero__story container">
           <div class="hero__srory-wrapper">
             <div class="row">
               <div
-                class="hero__story-title text-accent text-secondary offset-1 col-10 order-1 offset-sm-1 col-sm-3"
+                class="hero__story-title text-accent text-secondary offset-xl-1 col-xl-3"
               >
                 <h2>НАША <i>ІСТОРІЯ</i></h2>
               </div>
-              <div
-                class="hero__story-text order-4 order-sm-2 text-white text-lg offset-1 col-10 offset-sm-1 col-sm-6 offset-lg-3 col-lg-5"
-              >
+              <div class="text-white text-lg offset-xl-3 col-xl-5">
                 <p>
                   <b>AltSensus Capital</b> — це команда професіоналів із
                   підтвердженим трек-рекордом, що спеціалізується на управлінні
                   активами в сфері цифрових фінансових інструментів.
                 </p>
               </div>
-              <div
-                class="hero__story-text order-2 text-white text-lg offset-1 col-10 offset-sm-1 col-sm-6 col-lg-5"
-              >
+            </div>
+
+            <div class="row">
+              <div class="text-white text-lg offset-xl-1 col-xl-5">
                 <p>
                   Після успішної кар'єри в банках та інвестиційних компаніях
                   наші співзасновники вирішили заснувати
@@ -168,29 +98,23 @@
                   інвесторам новий підхід до керування цифровими активами.
                 </p>
               </div>
-              <div
-                class="hero__story-image-wrapper order-3 offset-5 col-6 col-sm-3 offset-sm-1 offset-lg-1 col-lg-2"
-              >
+              <div class="hero__story-image-wrapper offset-xl-1 col-xl-2">
                 <div class="hero__story-image">
-                  <img src="images/hero-story.webp" alt="Story Image" />
+                  <img src="images/hero-story.png" alt="Story Image" />
                 </div>
               </div>
             </div>
-
-            <div class="row"></div>
           </div>
         </div>
       </section>
       <section id="philosophy" class="philosophy">
         <div class="container">
-          <div class="row p-rel overflowHidden align-items-center">
-            <div
-              class="philosophy__animation-wrapper text-accent text-thin text-xl philosophy__animation"
-            >
-              <h2><span>НАША ФІЛОСОФІЯ</span></h2>
+          <div class="row align-items-center">
+            <div class="col-xl-3 text-accent text-thin text-xl">
+              <h2>НАША ФІЛОСОФІЯ</h2>
             </div>
             <div
-              class="philosophy__card-wrapper px-0 offset-1 col-10 offset-sm-3 col-sm-7 offset-lg-4 col-lg-4 pos d-flex justify-content-center"
+              class="philosophy__card-wrapper col-xl-6 d-flex justify-content-center"
             >
               <div class="philosophy__card">
                 <div
@@ -201,83 +125,76 @@
                 ></div>
                 <div class="philosophy__card-image">
                   <img
-                    src="images/philosophyCardImage.webp"
+                    src="images/philosophyCardImage.png"
                     alt="Philosophy Card"
                   />
                 </div>
                 <div
                   class="philosophy__card-text text-thin text-white text-md text-center"
                 >
-                  <p>
-                    Наша філософія поєднує передові технології, аналіз
-                    макроекономічних тенденцій та глибоке розуміння глобальних
-                    фінансових ринків, що дозволяє нам виявляти недооцінені
-                    можливості та інвестувати у проривні проєкти.
-                  </p>
+                  Наша філософія поєднує передові технології, аналіз
+                  макроекономічних тенденцій та глибоке розуміння глобальних
+                  фінансових ринків, що дозволяє нам виявляти недооцінені
+                  можливості та інвестувати у проривні проєкти.
                 </div>
                 <div class="philosophy__card-logo">
-                  <img src="images/miniLogo.webp" alt="Logo" />
+                  <img src="images/miniLogo.png" alt="Logo" />
                 </div>
               </div>
             </div>
             <div
-              class="philosophy__animation-wrapper philosophy__animation-wrapper--second text-accent text-thin text-xl philosophy__animation"
+              class="col-xl-3 d-flex justify-content-end text-accent text-thin text-xl"
             >
               <h2>НАША ФІЛОСОФІЯ</h2>
             </div>
           </div>
-        </div>
-      </section>
 
-      <section id="aboutName" class="about-name">
-        <div class="container">
-          <div class="about-name__row row">
-            <div class="ps-0 col-4 col-sm-2 col-lg-2 pe-0">
-              <div class="about-name__pin-button-wrapper btn">
-                <button>
-                  <div class="about-name__pin-icon"></div>
+          <div class="row">
+            <div class="col-xl-2 pe-0">
+              <div class="philosophy__pin-button-wrapper">
+                <button class="btn">
+                  <div class="philosophy__pin-icon"></div>
                 </button>
               </div>
             </div>
-            <div class="col-8 offset-lg-1 col-lg-5 d-flex align-items-center">
-              <div class="about-name__title text-thin text-xl">
-                <h2>
-                  НАЗВА НАШОЇ КОМПАНІЇ ВІДОБРАЖАЄ НАШЕ БАЧЕННЯ МАЙБУТНЬОГО ТА
-                  УНІКАЛЬНИЙ ПІДХІД ДО ІНВЕСТУВАННЯ:
-                </h2>
+            <div class="col-xl-1 px-0 borderBottom borderTop borderLeft"></div>
+            <div
+              class="col-xl-5 d-flex align-items-center borderBottom borderTop"
+            >
+              <div class="text-thin text-xl">
+                НАЗВА НАШОЇ КОМПАНІЇ ВІДОБРАЖАЄ НАШЕ БАЧЕННЯ МАЙБУТНЬОГО ТА
+                УНІКАЛЬНИЙ ПІДХІД ДО ІНВЕСТУВАННЯ:
               </div>
             </div>
-            <div class="about-name__row-side-divider"></div>
+            <div class="col-xl-4 borderBottom borderTop borderRight"></div>
           </div>
 
-          <div class="about-name__name row borderRight">
-            <div class="col-4 col-sm-2 offset-lg-2 col-lg-2">
-              <div class="about-name__name-description-title text-xl text-bold">
+          <div class="philosophy__name row borderRight">
+            <div class="offset-xl-2 col-xl-2">
+              <div class="philosophy__name-title text-xl text-bold">
                 <p>"ALT"</p>
               </div>
-              <div class="about-name__name-description text-lg">
+              <div class="text-lg">
                 <p>
                   скорочення від Alternative <br />
                   (альтернатива)
                 </p>
               </div>
             </div>
-            <div
-              class="offset-2 col-5 col-sm-2 offset-sm-1 offset-lg-0 col-lg-2"
-            >
-              <div class="about-name__name-description-title text-xl text-bold">
+            <div class="col-xl-2">
+              <div class="philosophy__name-title text-xl text-bold">
                 <p>"SENSUS"</p>
               </div>
-              <div class="about-name__name-description text-lg">
+              <div class="text-lg">
                 <p>з латини означає сприйняття, відчуття, думка.</p>
               </div>
             </div>
 
-            <div class="col-12 offset-sm-1 col-sm-6 col-lg-4">
-              <div class="about-name__name-description-title text-xl text-bold">
+            <div class="offset-xl-1 col-xl-4">
+              <div class="philosophy__name-title text-xl text-bold">
                 <p>ALT SENSUS</p>
               </div>
-              <div class="about-name__name-description text-lg">
+              <div class="text-lg">
                 <p>
                   це "Альтернативне сприйняття", що відображає наше переконання
                   в тому, що домінування технологічних гігантів не є незмінним,
@@ -286,49 +203,32 @@
               </div>
             </div>
           </div>
-        </div>
-        <div class="about-name__description-wrapper">
-          <div class="about-name__description-side-divider"></div>
-          <div class="about-name__description-container container">
-            <div
-              class="about-name__description row borderTop borderRight d-flex align-items-center"
-            >
-              <div class="col-9 pe-sm-0 col-sm-5 offset-lg-2 col-lg-4">
-                <div class="about-name__description-image">
-                  <img
-                    src="images/philosophyDescriptionImage.webp"
-                    alt="philosophy image"
-                  />
-                </div>
-              </div>
 
-              <div
-                class="about-name__description-text col-12 ps-sm-0 col-sm-6 offset-sm-1 offset-lg-1 col-lg-4 text-lg"
-              >
-                <p>
-                  Ми прагнемо використовувати недооцінені макроекономічні
-                  тенденції та переоцінку термінів технологічної та фінансової
-                  революції.
-                </p>
-                <p>
-                  Це дозволяє нам застосовувати стратегічно зважений та
-                  адаптивний підхід до інвестування, використовуючи можливості,
-                  що залишаються поза увагою традиційних учасників ринку.
-                </p>
+          <div
+            class="philosophy__description row borderTop borderRight d-flex align-items-center"
+          >
+            <div class="offset-xl-2 col-xl-4">
+              <div class="philosophy__description-image">
+                <img
+                  src="images/philosophyDescriptionImage.png"
+                  alt="philosophy image"
+                />
               </div>
             </div>
-            <div class="about-name__description-circle circle">
-              <div
-                class="about-name__description-circle-line about-name__description-circle-line--horizontal"
-              ></div>
-              <div
-                class="about-name__description-circle-line about-name__description-circle-line--vertical"
-              ></div>
+
+            <div class="offset-xl-1 col-xl-4 text-lg">
+              <p>
+                Ми прагнемо використовувати недооцінені макроекономічні
+                тенденції та переоцінку термінів технологічної та фінансової
+                революції.
+              </p>
+              <p>
+                Це дозволяє нам застосовувати стратегічно зважений та адаптивний
+                підхід до інвестування, використовуючи можливості, що
+                залишаються поза увагою традиційних учасників ринку.
+              </p>
             </div>
           </div>
-          <div
-            class="about-name__description-side-divider gradient-right"
-          ></div>
         </div>
       </section>
 
@@ -337,7 +237,7 @@
           <div class="container">
             <div class="row">
               <div
-                class="approach__header-wrapper d-flex offset-sm-1 col-sm-11 offset-lg-1 col-lg-11"
+                class="approach__header-wrapper d-flex offset-xl-1 col-xl-11"
               >
                 <div class="approach__title text-accent">
                   <h2>НАШ <br /><i>ПІДХІД</i></h2>
@@ -363,91 +263,77 @@
         <div class="container">
           <div class="row">
             <div
-              class="approach__content-title offset-sm-1 col-sm-11 offset-lg-1 col-lg-11 text-xl text-accent"
+              class="approach__content-title offset-xl-1 col-xl-4 text-xl text-accent"
             >
-              <h3>
-                <b>ІВЕНСТЕЦІЙНИЙ ПРОЦЕС</b> <br />
-                ВКЛЮЧАЄ В СЕБЕ:
-              </h3>
+              <h3><b>ІВЕНСТЕЦІЙНИЙ ПРОЦЕС</b> ВКЛЮЧАЄ В СЕБЕ:</h3>
             </div>
           </div>
-          <div class="approach__invest-process-wrapper">
-            <div class="row align-items-end">
-              <div
-                class="approach__invest-item approach__invest-item--invest offset-sm-3 col-sm-4 offset-lg-4 col-lg-2"
-              >
-                <div class="approach__process-icon">
-                  <img src="images/icons/upload.svg" alt="upload" />
-                </div>
-                <div class="approach__process-text text-lg">
-                  <p>
-                    <b>Інвестування</b> <br />
-                    у перспективні проєкти з високим потенціалом зростання, які
-                    ще не привернули уваги великих інституційних інвесторів.
-                  </p>
-                </div>
-              </div>
 
-              <div
-                class="approach__invest-item approach__invest-item--intelligent offset-sm-1 col-sm-4 offset-lg-2 col-lg-2"
-              >
-                <div class="approach__process-icon">
-                  <img src="images/icons/share.svg" alt="upload" />
-                </div>
-                <div class="approach__process-text text-lg">
-                  <p>
-                    <b>Інтелектуальний аналіз</b> <br />
-                    для оцінки динаміки галузі, вартості капіталу та ринкових
-                    тенденцій.
-                  </p>
-                </div>
+          <div class="row align-items-end">
+            <div class="offset-xl-4 col-xl-2">
+              <div class="approach__process-icon">
+                <img src="images/icons/upload.svg" alt="upload" />
+              </div>
+              <div class="approach__process-text text-lg">
+                <p>
+                  <b>Інвестування</b> у перспективні проєкти з високим
+                  потенціалом зростання, які ще не привернули уваги великих
+                  інституційних інвесторів.
+                </p>
               </div>
             </div>
 
-            <div class="row">
-              <div class="approach__line offset-lg-1 col-lg-10">
-                <img src="images/line.png" alt="line" />
+            <div class="offset-xl-2 col-xl-2">
+              <div class="approach__process-icon">
+                <img src="images/icons/share.svg" alt="upload" />
+              </div>
+              <div class="approach__process-text text-lg">
+                <p>
+                  <b>Інтелектуальний аналіз</b> для оцінки динаміки галузі,
+                  вартості капіталу та ринкових тенденцій.
+                </p>
               </div>
             </div>
+          </div>
 
-            <div class="row">
-              <div
-                class="approach__invest-item approach__invest-item--analyz offset-sm-1 col-sm-4 offset-lg-2 col-lg-2"
-              >
-                <div class="approach__process-icon">
-                  <img src="images/icons/settings.svg" alt="upload" />
-                </div>
-                <div class="approach__process-text text-lg">
-                  <p>
-                    <b>Аналіз</b> <br />
-                    глобальних економічних і фінансових тенденцій для пошуку
-                    недооцінених можливостей.
-                  </p>
-                </div>
+          <div class="row">
+            <div class="approach__line offset-xl-1 col-xl-10">
+              <img src="images/line.png" alt="line" />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="offset-xl-2 col-xl-2">
+              <div class="approach__process-icon">
+                <img src="images/icons/settings.svg" alt="upload" />
               </div>
-              <div
-                class="approach__invest-item offset-sm-1 col-sm-4 offset-lg-2 col-lg-2"
-              >
-                <div class="approach__process-icon">
-                  <img src="images/icons/lock.svg" alt="upload" />
-                </div>
-                <div class="approach__process-text text-lg">
-                  <p>
-                    <b>Управління ризиками,</b> <br />
-                    враховуючи кореляцію криптовалют із традиційними фінансовими
-                    інструментами.
-                  </p>
-                </div>
+              <div class="approach__process-text text-lg">
+                <p>
+                  <b>Аналіз</b> глобальних економічних і фінансових тенденцій
+                  для пошуку недооцінених можливостей.
+                </p>
+              </div>
+            </div>
+            <div class="offset-xl-2 col-xl-2">
+              <div class="approach__process-icon">
+                <img src="images/icons/lock.svg" alt="upload" />
+              </div>
+              <div class="approach__process-text text-lg">
+                <p>
+                  <b>Управління ризиками,</b> враховуючи кореляцію криптовалют
+                  із традиційними фінансовими інструментами.
+                </p>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="container approach__card-container">
+        <div class="container  approach__card-container">
           <div class="row">
-            <div class="approach__card px-md-0 col-lg-12">
-              <div class="approach__card-wrapper">
-                <div class="approach__card-image-background"></div>
+            <div class="approach__card px-0 col-xl-12">
+              <div
+                class="approach__card-wrapper d-flex justify-content-between align-items-end height100"
+              >
                 <div class="approach__card-background"></div>
                 <div class="approach__card-text p-rel">
                   <div class="approach__card-title text-accent">
@@ -465,114 +351,86 @@
           </div>
         </div>
 
-        <div class="approach__divider-container mobileHidden container">
-          <div class="row">
-            <div class="col-sm-4 ps-sm-0">
-              <div class="approach__divider-item"></div>
-            </div>
-            <div class="col-sm-4">
-              <div class="approach__divider-item"></div>
-            </div>
-            <div class="col-sm-4 pe-sm-0">
-              <div class="approach__divider-item"></div>
-            </div>
-          </div>
-        </div>
-        <div class="approach__items-wrapper p-rel">
+        <div class="approach__services">
           <div
-            class="approach__side-divider approach__mobile-side-divider--left gradient-top"
+            class="approach__services-side-gradient borderTop borderBottom gradient-top"
           >
-            <div class="approach__item-circle circle desktopHidden">
-              <div class="p-rel">
-                <div class="approach__item-circle-lineHorizontal"></div>
-                <div class="approach__item-circle-lineVertical"></div>
-              </div>
-            </div>
+            <div
+              class="approach__service-item-divider-border approach__service-item-divider-border-top borderRight"
+            ></div>
+            <div
+              class="approach__service-item-divider-border approach__service-item-divider-border-bottom borderRight"
+            ></div>
           </div>
-          <div class="container">
-            <div class="approach__mobile-side-divider"></div>
-
-            <div class="approach__items-row row p-rel">
-              <div class="approach__item-block p-rel col-sm-4 ps-sm-0">
-                <div class="approach__item">
-                  <div class="approach__item-content">
-                    <p>
-                      Вирівнюємо наші інтереси з інтересами клієнтів, інвестуючи
-                      власний капітал в аналогічні стратегії.
-                    </p>
-                  </div>
-                </div>
+          <div class="container borderTop borderBottom">
+            <div class="row p-rel align-items-center">
+              <div class="approach__services-item p-rel col-xl-4 text-lg text-center">
+                <p>
+                  Вирівнюємо наші інтереси з інтересами клієнтів, інвестуючи
+                  власний капітал в аналогічні стратегії.
+                </p>
               </div>
               <div
-                class="approach__items-divider offset-sm-4 mobileHidden gradient-bottom"
-              ></div>
-              <div class="approach__item-block p-rel col-sm-4">
-                <div class="approach__item">
-                  <div class="approach__item-content">
-                    <p>
-                      Надаємо повну звітність щодо інвестицій. Готові надати
-                      підтверджений <b>трек-рекорд</b> та дані для перевірки
-                      ділової репутації.
-                    </p>
-                  </div>
-                </div>
+                class="approach__services-item offset-xl-4 approach__service-item-divider gradient-bottom"
+              >
+                <div
+                  class="approach__service-item-divider-border approach__service-item-divider-border-top borderLeft borderRight"
+                ></div>
+                <div
+                  class="approach__service-item-divider-border approach__service-item-divider-border-bottom borderLeft borderRight"
+                ></div>
+              </div>
+              <div class="approach__services-item col-xl-4 text-lg text-center">
+                <p>
+                  Надаємо повну звітність щодо інвестицій. Готові надати
+                  підтверджений <b>трек-рекорд</b> та дані для перевірки ділової
+                  репутації.
+                </p>
               </div>
               <div
-                class="approach__items-divider offset-sm-8 mobileHidden gradient-top"
-              ></div>
-              <div class="approach__item-block p-rel col-sm-4 pe-sm-0">
-                <div class="approach__item approach__item--last">
-                  <div class="approach__item-content">
-                    <p>Дотримуємось суворих стандартів управління ризиками.</p>
-                  </div>
-                </div>
-                <div class="approach__item-circle circle mobileHidden">
-                  <div class="p-rel">
-                    <div class="approach__item-circle-lineHorizontal"></div>
-                    <div class="approach__item-circle-lineVertical"></div>
-                  </div>
+                class="offset-xl-8 approach__service-item-divider gradient-top"
+              >
+                <div
+                  class="approach__service-item-divider-border approach__service-item-divider-border-top borderLeft borderRight"
+                ></div>
+                <div
+                  class="approach__service-item-divider-border approach__service-item-divider-border-bottom borderLeft borderRight"
+                ></div>
+              </div>
+              <div class="approach__services-item col-xl-4">
+                <div class="text-lg text-center">
+                  <p>Дотримуємось суворих стандартів управління ризиками.</p>
                 </div>
               </div>
             </div>
           </div>
           <div
-            class="approach__side-divider approach__mobile-side-divider--right gradient-bottom"
-          ></div>
-        </div>
-        <div class="approach__bottom-divider-wrapper">
-          <div
-            class="approach__bottom-divider-container mobileHidden container"
+            class="approach__services-side-gradient borderTop borderBottom gradient-bottom"
           >
-            <div class="row">
-              <div class="col-sm-4 ps-sm-0">
-                <div class="approach__bottom-divider-item"></div>
-              </div>
-              <div class="col-sm-4">
-                <div class="approach__bottom-divider-item"></div>
-              </div>
-              <div class="col-sm-4 pe-sm-0">
-                <div class="approach__bottom-divider-item"></div>
-              </div>
-            </div>
+            <div
+              class="approach__service-item-divider-border approach__service-item-divider-border-top borderLeft"
+            ></div>
+            <div
+              class="approach__service-item-divider-border approach__service-item-divider-border-bottom borderLeft"
+            ></div>
           </div>
         </div>
+        <div class="approach__bottom-divider"></div>
       </section>
 
       <section id="perfomance" class="perfomance">
-        <div class="perfomance__top-divider mobileHidden"></div>
         <div class="container">
           <div class="row">
-            <div class="offset-xxl-2 col-xxl-8 col-lg-12">
-              <div class="perfomance__title text-accent text-center text-thin">
-                <h2>
-                  ПЕРЕВІРЕНА <br />
-                  <i>РЕЗУЛЬТАТИВНІСТЬ</i>
-                </h2>
+            <div class="offset-xxl-2 col-xxl-8 col-xl-12">
+              <div
+                class="perfomance__title text-accent text-xxl text-center text-thin"
+              >
+                <h2>ПЕРЕВІРЕНА <i>РЕЗУЛЬТАТИВНІСТЬ</i></h2>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="perfomance__waiting col-12 text-xl text-center">
+            <div class="col-12 text-xl text-center">
               <p>
                 ІНВЕСТОРИ НЕ ПОВИННІ ЧЕКАТИ РОКАМИ, ЩОБ ПОБАЧИТИ, ЧИ ПРАЦЮЄ
                 СТРАТЕГІЯ.
@@ -581,7 +439,7 @@
           </div>
           <div class="row">
             <div
-              class="perfomance__description offset-sm-1 col-sm-10 offset-lg-3 col-lg-6 text-lg text-center text-wrap-balance"
+              class="perfomance__description offset-xl-3 col-xl-6 text-lg text-center text-wrap-balance"
             >
               <p>
                 Попри молодий вік фонду, його основою є глибока експертиза. Наша
@@ -591,8 +449,8 @@
             </div>
           </div>
           <div class="row">
-            <div class="perfomance__statistic col-sm-4">
-              <div class="perfomance__statistic-title text-accent text-center">
+            <div class="perfomance__statistic col-xl-4">
+              <div class="perfomance__statistic-title text-xxl text-accent text-center">
                 <p>$17.98M+</p>
               </div>
               <div class="text-lg text-center">
@@ -602,8 +460,8 @@
                 </p>
               </div>
             </div>
-            <div class="perfomance__statistic col-sm-4">
-              <div class="perfomance__statistic-title text-accent text-center">
+            <div class="perfomance__statistic col-xl-4">
+              <div class="perfomance__statistic-title text-xxl text-accent text-center">
                 <p>>79%</p>
               </div>
               <div class="text-lg text-center">
@@ -614,8 +472,8 @@
                 </p>
               </div>
             </div>
-            <div class="perfomance__statistic col-sm-4">
-              <div class="perfomance__statistic-title text-accent text-center">
+            <div class="perfomance__statistic col-xl-4">
+              <div class="perfomance__statistic-title text-xxl text-accent text-center">
                 <p>$7.98M</p>
               </div>
               <div class="text-lg text-center">
@@ -631,561 +489,53 @@
 
       <section id="stategy" class="stategy p-rel">
         <div class="stategy__background"></div>
-        <div class="stategy__wrapper">
-          <div class="stategy__side-divider gradient-top"></div>
-          <div class="stategy__container container p-rel">
-            <div class="stategy__row row p-rel">
-              <div class="col-sm-5 offset-lg-1 col-lg-5">
-                <div
-                  class="stategy__title color-accent text-center text-accent text-thin"
-                >
-                  <p>Жодних розтягнутих стратегій</p>
-                </div>
-                <div
-                  class="stategy__description text-lg text-white text-center text-thin"
-                >
-                  <p>
-                    Наші ідеї працюють швидко, поки інші ще пишуть меморандуми
-                  </p>
-                </div>
+        <div class="container p-rel">
+          <div class="row">
+            <div class="offset-xl-1 col-xl-5">
+              <div class="stategy__title color-accent text-50 text-center text-accent text-thin">
+                <p>Жодних <br /> розтягнутих стратегій</p>
               </div>
-              <div
-                class="strategy__description-divider offset-sm-5 col-sm-2 gradient-bottom"
-              ></div>
-              <div
-                class="col-10 offset-1 col-sm-5 offset-sm-2 offset-lg-1 col-lg-5"
-              >
-                <div
-                  class="stategy__title color-accent text-center text-accent text-thin"
-                >
-                  <p>Повний інвестиційний цикл</p>
-                </div>
-                <div
-                  class="stategy__description text-lg text-white text-center text-thin"
-                >
-                  <p>
-                    Від входу до реалізації, із дотриманням аудиторських та
-                    регуляторних стандартів
-                  </p>
-                </div>
+              <div class="stategy__description text-lg text-white text-center text-thin">
+                <p>
+                  Наші ідеї працюють швидко, поки інші ще пишуть меморандуми
+                </p>
+              </div>
+            </div>
+            <div class="offset-xl-1 col-xl-5">
+              <div class="stategy__title color-accent text-50 text-center text-accent text-thin">
+                <p>Повний <br /> інвестиційний цикл</p>
+              </div>
+              <div class="stategy__description text-lg text-white text-center text-thin">
+                <p>
+                  Від входу до реалізації, із дотриманням аудиторських та регуляторних стандартів
+                </p>
               </div>
             </div>
           </div>
-          <div class="stategy__side-divider gradient-top"></div>
         </div>
       </section>
 
-      <section id="purpose" class="purpose">
-        <div class="container purpose__card-container">
+      <div id="propose" class="propose">
+        <div class="container borderLeft borderRight">
           <div class="row">
-            <div
-              class="offset-lg-2 col-lg-1 borderLeft tabletHidden mobileHidden"
-            ></div>
-            <div
-              class="purpose__card-col offset-sm-3 col-sm-6 offset-lg-0 col-lg-6"
-            >
+            <div class="offset-xl-3 col-xl-6">
               <div class="text-lg text-center">
                 <p>Ми створили AltSensus для інвесторів, які цінують</p>
               </div>
-              <div class="purpose__title text-accent text-center">
+              <div class="propose__title text-50 text-accent text-center">
                 <h2>ШВИДКІСТЬ ІНСАЙТИ ТА МИТТЄВИЙ ЕФФЕКТ</h2>
               </div>
               <div class="text-lg text-center">
                 <p>а не затяжну невизначеність</p>
               </div>
-            </div>
-            <div class="offset-lg-1 col-lg-1 borderLeft"></div>
-          </div>
-          <div class="row">
-            <div class="offset-lg-2 col-lg-1 borderLeft mobileHidden"></div>
-            <div class="px-sm-0 offset-sm-1 col-sm-10 offset-lg-0 col-lg-6">
-              <div class="purpose-card">
-                <div class="p-rel">
-                  <div
-                    class="purpose-card__background purpose-card__background--2"
-                  ></div>
-                  <div
-                    class="purpose-card__background purpose-card__background--1"
-                  ></div>
-                  <div class="purpose-card__wrapper">
-                    <div class="purpose-card__logo p-rel">
-                      <img src="images/miniLogo.webp" alt="logo" />
-                    </div>
-                    <div class="purpose-card__text p-rel">
-                      <div class="purpose-card__title-wrapper">
-                        <div class="purpose-card__title text-white">
-                          <span>ALTSENSUS</span>
-                        </div>
-                        <div class="purpose-card__time">
-                          <span>1 хвилину тому</span>
-                        </div>
-                      </div>
-                      <div class="purpose-card__description text-white">
-                        <p>
-                          Ви довіряєте не теорії. <br />
-                          Ви довіряєте команді, яка вже показала результат —
-                          швидко, ефективно та в масштабі.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="purpose-card__shadow"></div>
-              </div>
-            </div>
-            <div class="offset-lg-1 col-lg-1 borderLeft mobileHidden"></div>
-          </div>
-        </div>
 
-        <div class="purpose__link-container container">
-          <div class="row">
-            <div
-              class="purpose__link-divider purpose__link-divider--left mobileHidden offset-sm-0 px-sm-0 col-sm-1 offset-lg-0 col-lg-2"
-            ></div>
-            <div
-              class="purpose__current-strategy-wrapper px-sm-0 col-sm-9 col-lg-8"
-            >
-              <div
-                class="purpose__current-strategy text-primary-color text-center"
-              >
-                <p>
-                  Перевірте нашу поточну стратегію на <br /><a
-                    >Binance Copy Trading</a
-                  >
-                </p>
-              </div>
-              <div class="purpose__current-strategy-circle circle"></div>
-            </div>
-            <div
-              class="purpose__link-divider purpose__link-divider--right px-sm-0 col-sm-2 col-lg-2 ps-0 gradient-bottom"
-            ></div>
-          </div>
-        </div>
-      </section>
-
-      <section id="basis" class="basis">
-        <div class="container basis__container">
-          <div class="row">
-            <div
-              class="basis__title-wrapper offset-3 col-8 offset-sm-1 col-sm-6 offset-lg-1 col-lg-6"
-            >
-              <div class="basis__title text-64 text-accent">
-                <h2>
-                  ОСНОВА ДІЯЛЬНОСТІ <br />
-                  — ДОВІРА ТА ПРОЗОРІСТЬ
-                </h2>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="basis__divider borderBottom width100"></div>
-        <div
-          class="basis__mobile-image-container borderLeft borderRight desktopHidden"
-        >
-          <div class="row">
-            <div class="basis__mobile-image-wrapper col-12">
-              <img src="images/basisMobile.webp" alt="basis mobile" />
-            </div>
-          </div>
-        </div>
-        <div class="basis__items-wrapper basis__items-wrapper--border-bottom">
-          <div class="container borderLeft borderRight">
-            <div class="row">
-              <div
-                class="basis__image-container offset-sm-1 pe-0 col-sm-6 offset-lg-2 col-lg-5 mobileHidden"
-              >
-                <img src="images/basis1.webp" alt="" />
-              </div>
-              <div
-                class="basis__items-container offset-3 col-9 order-3 order-sm-2 offset-sm-0 col-sm-5"
-              >
-                <div class="basis__item d-flex text-primary-color text-lg">
-                  <div class="basis__item-plus">
-                    <img src="images/icons/plus.svg" alt="plus" />
-                  </div>
-                  <span>
-                    Вирівнюємо наші інтереси з інтересами клієнтів, інвестуючи
-                    власний капітал в аналогічні стратегії.
-                  </span>
-                </div>
-                <div class="basis__item d-flex text-primary-color text-lg">
-                  <div class="basis__item-plus">
-                    <img src="images/icons/plus.svg" alt="plus" />
-                  </div>
-                  <span> Надаємо повну звітність щодо інвестицій. </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="basis__items-wrapper">
-          <div
-            class="basis__items-wrapper-divider gradient-right mobileHidden"
-          ></div>
-          <div class="basis__items-container container borderLeft borderRight">
-            <div class="row">
-              <div
-                class="basis__items-container offset-3 col-9 order-4 order-sm-3 offset-sm-1 col-sm-6 offset-lg-2 col-lg-5"
-              >
-                <div class="basis__item d-flex text-primary-color text-lg">
-                  <div class="basis__item-plus">
-                    <img src="images/icons/plus.svg" alt="plus" />
-                  </div>
-                  <span>
-                    Готові надати підтверджений трек-рекорд та дані для
-                    перевірки ділової репутації.
-                  </span>
-                </div>
-                <div class="basis__item d-flex text-primary-color text-lg">
-                  <div class="basis__item-plus">
-                    <img src="images/icons/plus.svg" alt="plus" />
-                  </div>
-                  <span>
-                    Дотримуємось суворих стандартів управління ризиками.
-                  </span>
-                </div>
-              </div>
-              <div
-                class="basis__image-container order-sm-4 offset-sm-0 ps-0 col-sm-4 col-lg-3 mobileHidden"
-              >
-                <img src="images/basis2.webp" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="basis__items-wrapper-divider mobileHidden"></div>
-        </div>
-
-        <div class="basis__divider borderBottom width100"></div>
-      </section>
-
-      <div id="contacts" class="contacts">
-        <div class="container">
-          <div class="row">
-            <div class="contacts-item p-rel col-6 offset-lg-2 col-lg-4">
-              <div class="contacts-item__wrapper">
-                <img src="images/ЮрійБажинов.webp" alt="Юрій Бажинов" />
-                <div class="contacts-item__background-gradient"></div>
-                <div class="contacts-item__name-plate p-rel">
-                  <div class="contacts-item__name-background"></div>
-                  <div class="contacts-item__name-wrapper p-rel">
-                    <div
-                      class="contacts-item__name text-lg text-white text-bold"
-                    >
-                      Юрій Бажинов
-                    </div>
-                    <div class="contacts-item__title text-lg text-white">
-                      Співдиректор
-                    </div>
-                  </div>
-                  <div class="contacts-item__icon-wrapper p-rel">
-                    <div class="contacts-item__icon"></div>
-                  </div>
-                  <a href="" class="contacts-item__name-plate-link"></a>
-                </div>
-              </div>
-            </div>
-            <div
-              class="contacts-item contacts-item--right col-6 p-rel col-lg-4"
-            >
-              <div class="contacts-item__wrapper">
-                <img src="images/ДмитроБондар.webp" alt="Дмитро Бондар" />
-                <div class="contacts-item__background-gradient"></div>
-                <div class="contacts-item__name-plate p-rel">
-                  <div class="contacts-item__name-background"></div>
-                  <div class="contacts-item__name-wrapper p-rel">
-                    <div
-                      class="contacts-item__name text-lg text-white text-bold"
-                    >
-                      Дмитро Бондар
-                    </div>
-                    <div class="contacts-item__title text-lg text-white">
-                      Співдиректор
-                    </div>
-                  </div>
-                  <div class="contacts-item__icon-wrapper p-rel">
-                    <div class="contacts-item__icon"></div>
-                  </div>
-                  <a href="" class="contacts-item__name-plate-link"></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="offset-lg-2 col-lg-8">
-              <div class="contacts__button btn">
-                <a href="">info@altsensus.com</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="formBlock" class="form-block">
-        <div class="form-block__background"></div>
-        <div class="container">
-          <div class="row align-items-center">
-            <div
-              class="col-12 offset-sm-3 px-sm-0 col-sm-5 offset-lg-4 px-lg-0 col-lg-4"
-            >
-              <div class="form">
-                <div class="form__logo">
-                  <img src="images/logo.png" alt="logo" />
-                </div>
-                <div class="form__title text-center text-primary-color">
-                  <p>ЗАПИСАТИСЬ НА КОНСУЛЬТАЦІЮ</p>
-                </div>
-                <div class="form__input-wrapper error">
-                  <div class="form__input-title text-primary-color">
-                    Повне ім'я
-                  </div>
-                  <input type="text" placeholder="Тарас шевченко" required />
-                  <div class="form__input-error-message text-accent text-sm">
-                    Введіть ваше ім'я
-                  </div>
-                </div>
-                <div class="form__input-wrapper">
-                  <div class="form__input-title text-primary-color">
-                    Повне ім'я
-                  </div>
-                  <input
-                    type="text"
-                    placeholder="Тарас шевченко"
-                    required
-                    disabled
-                  />
-                  <div class="form__input-error-message text-accent text-sm">
-                    Введіть ваше ім'я
-                  </div>
-                </div>
-                <div class="form__input-wrapper">
-                  <div class="form__input-title text-primary-color">
-                    Повне ім'я
-                  </div>
-                  <textarea
-                    type="text"
-                    placeholder="Тарас шевченко"
-                    required
-                  ></textarea>
-                  <div class="form__input-error-message text-accent text-sm">
-                    Введіть ваше ім'я
-                  </div>
-                </div>
-
-                <div class="form__checkbox-wrapper">
-                  <div class="form__checkbox error d-flex align-items-center">
-                    <input type="checkbox" id="agree" required />
-                    <label for="agree" class="d-flex align-items-center">
-                      <div class="form__checkbox-label-wrapper">
-                        *Заповнюючи форму, ви погоджуєтесь з нашими Умовами та
-                        Політикою конфіденційності.
-                      </div>
-                    </label>
-                  </div>
-                </div>
-
-                <div class="form__button-wrapper btn">
-                  <button>Зв'язатися</button>
-                </div>
-              </div>
-            </div>
-            <div class="offset-sm-1 col-sm-3 form-block__text">
-              <div class="form-block__text-item p-rel">
-                <div
-                  class="mobileHidden form-block__text-item-background"
-                ></div>
-                <div
-                  class="form-block__text-item-title p-rel text-white text-bold"
-                >
-                  <p>Швидка відповідь</p>
-                </div>
-                <div class="form-block__text-item-content p-rel text-white">
-                  <p>
-                    Якщо ви готові до створення та співпраці — будемо раді вас
-                    вислухати.
-                  </p>
-                </div>
-              </div>
-              <div class="form-block__text-item">
-                <div class="form-block__text-item-title text-white text-bold">
-                  <p>Чіткі кроки</p>
-                </div>
-                <div class="form-block__text-item-content text-white">
-                  <p>
-                    Після консультації ми надамо вам детальний план і графік
-                    реалізації.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div id="quickContact" class="quick-contact">
-        <div class="container tabletHidden mobileHidden">
-          <div class="row">
-            <div class="offset-lg-1 col-lg-4 text-lg text-bold text-white">
-              <p>
-                Для швидкого зв’язку надішліть нам повідомлення — ми відповімо
-                якнайшвидше.
-              </p>
-            </div>
-            <div class="offset-lg-1 col-lg-5 p-rel d-flex justify-content-end">
-              <div class="quick-contact__input-wrapper">
-                <form>
-                  <input type="email" placeholder="Введіть ваш e-mail" />
-                  <button>Надіслати</button>
-                </form>
-              </div>
-              <div class="quick-contact__error-message">
-                <span>Введіть ваш e-mail</span>
+              <div class="propose__card">
+                
               </div>
             </div>
           </div>
         </div>
       </div>
     </main>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <nav class="footer__nav offset-lg-4 col-lg-4 text-white">
-            <ul>
-              <li><a href="#story">Історія</a></li>
-              <li><a href="#philosophy">Філософія</a></li>
-              <li><a href="#services">Підхід</a></li>
-              <li><a href="#contact">Команда</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div class="row">
-          <div
-            class="footer__description offset-lg-2 col-lg-8 text-white text-center"
-          >
-            <p>
-              Disclaimer: This web page is for informational purposes only and
-              does not constitute an offer to sell. Nothing contained herein
-              constitutes a solicitation, recommendation, endorsement or offer
-              to buy or sell any digital assets in this or any other
-              jurisdiction in which such solicitation or offer would be unlawful
-              under the securities laws of such jurisdiction. This brief
-              statement cannot disclose all the risks and other material aspects
-              of the digital asset markets. Therefore, you should request a copy
-              of the private placement memorandum and other statutory documents,
-              carefully study cryptocurrency trading before investing, including
-              a description of the principal risk factors of this investment set
-              forth in the aforementioned documents.
-            </p>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="footer__social-links">
-            <ul>
-              <li>
-                <a href="#">
-                  <!-- send.svg -->
-                  <svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M9.86625 8.42687L21.1862 4.65354C26.2662 2.96021 29.0262 5.73354 27.3462 10.8135L23.5729 22.1335C21.0396 29.7469 16.8796 29.7469 14.3462 22.1335L13.2262 18.7735L9.86625 17.6535C2.25292 15.1202 2.25292 10.9735 9.86625 8.42687Z"
-                      stroke="white"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      fill="none"
-                    />
-                    <path
-                      d="M13.4805 18.1998L18.2538 13.4131"
-                      stroke="white"
-                      stroke-width="1.5"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a class="footer__link--filled" href="#">
-                  <!-- linkedinWhite.svg -->
-                  <svg
-                    width="28"
-                    height="27"
-                    viewBox="0 0 28 27"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M27.279 16.2928V26.1315H21.575V16.9515C21.575 14.6448 20.7497 13.0715 18.6857 13.0715C17.1097 13.0715 16.171 14.1328 15.759 15.1581C15.6083 15.5248 15.5697 16.0355 15.5697 16.5488V26.1315H9.86299C9.86299 26.1315 9.94033 10.5848 9.86299 8.97282H15.5697V11.4048L15.5323 11.4608H15.5697V11.4048C16.327 10.2381 17.6803 8.57015 20.711 8.57015C24.4643 8.57015 27.279 11.0235 27.279 16.2928V16.2928ZM3.89499 0.702148C1.94433 0.702148 0.666992 1.98215 0.666992 3.66615C0.666992 5.31282 1.90699 6.63148 3.82033 6.63148H3.85766C5.84833 6.63148 7.08433 5.31282 7.08433 3.66615C7.04966 1.98215 5.84966 0.702148 3.89633 0.702148H3.89499ZM1.00566 26.1315H6.70966V8.97282H1.00566V26.1315Z"
-                      fill="white"
-                    />
-                  </svg>
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <!-- mail.svg -->
-                  <svg
-                    width="32"
-                    height="32"
-                    viewBox="0 0 32 32"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M28.6669 23.9997L19.8098 15.9997M12.1908 15.9997L3.33371 23.9997M2.66699 9.33301L13.5536 16.9536C14.4351 17.5707 14.8759 17.8792 15.3553 17.9988C15.7789 18.1043 16.2218 18.1043 16.6453 17.9988C17.1248 17.8792 17.5655 17.5707 18.4471 16.9536L29.3337 9.33301M9.06699 26.6663H22.9337C25.1739 26.6663 26.294 26.6663 27.1496 26.2304C27.9023 25.8469 28.5142 25.235 28.8977 24.4823C29.3337 23.6267 29.3337 22.5066 29.3337 20.2663V11.733C29.3337 9.4928 29.3337 8.37269 28.8977 7.51705C28.5142 6.7644 27.9023 6.15248 27.1496 5.76898C26.294 5.33301 25.1739 5.33301 22.9337 5.33301H9.06699C6.82678 5.33301 5.70668 5.33301 4.85103 5.76898C4.09838 6.15248 3.48646 6.7644 3.10297 7.51705C2.66699 8.37269 2.66699 9.4928 2.66699 11.733V20.2663C2.66699 22.5066 2.66699 23.6267 3.10297 24.4823C3.48646 25.235 4.09838 25.8469 4.85103 26.2304C5.70668 26.6663 6.82678 26.6663 9.06699 26.6663Z"
-                      stroke="white"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row">
-          <div
-            class="footer__copyright justify-content-center justify-items-center text-white text-center"
-          >
-            <p>Altsensus Capital© 2025. All rights reserved.</p>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- Scroll to Top Button -->
-    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
-      <svg
-        width="46"
-        height="45"
-        viewBox="0 0 46 45"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <circle
-          cx="23.3027"
-          cy="22.5"
-          r="21.9375"
-          stroke="#FF4F2F"
-          stroke-width="1.125"
-        />
-        <path
-          d="M33.2132 27L22.6066 16.3934L12 27"
-          stroke="#FF4F2F"
-          stroke-width="1.125"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-        />
-      </svg>
-    </button>
   </body>
-  <script src="code.js"></script>
 </html>
