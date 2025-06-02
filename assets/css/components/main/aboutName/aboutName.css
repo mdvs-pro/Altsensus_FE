@@ -33,7 +33,8 @@
 
 .about-name__pin-button-wrapper.btn .about-name__pin-icon {
   mask: url("../../../../../images/icons/fi_bookmark.svg") no-repeat center;
-  -webkit-mask: url("../../../../../images/icons/fi_bookmark.svg") no-repeat center;
+  -webkit-mask: url("../../../../../images/icons/fi_bookmark.svg") no-repeat
+    center;
   mask-size: contain;
   -webkit-mask-size: contain;
 

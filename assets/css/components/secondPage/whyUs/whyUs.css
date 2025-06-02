@@ -376,6 +376,7 @@
   }
 
   .why-us__mobile-button * {
+    font-weight: 700;
     font-size: var(--font-size-14);
   }
 }

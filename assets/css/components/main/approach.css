@@ -7,6 +7,10 @@
   padding: 5rem 0;
 }
 
+.approach__header-wrapper {
+  align-items: center;
+}
+
 @media (max-width: 575px) {
   .approach__header {
     padding-top: 3rem;
@@ -18,6 +22,12 @@
   flex: 0 0 auto;
 
   margin-right: 10rem;
+}
+
+@media (max-width: 991px) {
+  .approach__title {
+    margin-right: 3rem;
+  }
 }
 
 @media (max-width: 575px) {
@@ -34,16 +44,22 @@
   margin-bottom: 1.5rem;
 }
 
+.approach__header-text *:last-child {
+  margin-bottom: 0;
+}
+
 .approach__title h2 {
   margin-top: 0;
   margin-bottom: 0;
-  font-weight: 400;
+  font-weight: 500;
   font-size: var(--font-size-106);
+  line-height: 10rem;
 }
 
 @media (max-width: 991px) {
   .approach__title h2 {
     font-size: var(--font-size-56);
+    line-height: 5.7rem;
   }
 }
 
@@ -76,14 +92,28 @@
   }
 }
 
+.approach__line {
+  margin-top: 1.7rem;
+  margin-bottom: 1.7rem;
+}
+
 .approach__line img {
   width: 103%;
   object-fit: contain;
 }
 
+@media (max-width: 991px) {
+  .approach__line {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+}
+
 @media (max-width: 575px) {
   .approach__line {
     position: relative;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
     width: 5rem;
     height: 70.3rem;
   }
@@ -198,7 +228,7 @@
   top: 0;
   left: 0;
   border-radius: 2.5rem;
-  background-image: url("../../../../images/approachCard.png");
+  background-image: url("../../../../images/approachCard.webp");
   background-position: top left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -290,6 +320,8 @@
 
 .approach__item {
   position: relative;
+  display: flex;
+  align-items: center;
   border-right: 0.1rem solid var(--border-color);
   border-left: 0.1rem solid var(--border-color);
   padding: 4.1rem 3.5rem 4.2rem;
@@ -398,7 +430,7 @@
   }
 
   .approach__bottom-divider-item {
-    height: 6.1rem;
+    height: 3rem;
   }
 }
 

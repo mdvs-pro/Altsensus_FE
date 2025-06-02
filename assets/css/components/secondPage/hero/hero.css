@@ -1,9 +1,25 @@
 .hero {
+  position: relative;
+  /* background-image: url("../../../../../images/hero2.webp"); */
+  height: calc(100vh - 6rem);
+  overflow: hidden;
+}
+
+.hero__background {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   background-image: url("../../../../../images/hero2.webp");
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: calc(100vh - 6rem);
+  width: 245.3rem;
+  height: 100%;
+}
+
+.hero .container {
+  position: relative;
 }
 
 .hero__team {
@@ -13,7 +29,7 @@
 
 .hero__team,
 .hero__team * {
-  font-size: var(--font-size-lg);
+  font-size: var(--font-size-24);
 }
 
 .hero__title,
@@ -23,13 +39,18 @@
 
 @media (max-width: 991px) {
   .hero {
-    background-image: url("../../../../../images/hero2Tablet.webp");
     height: calc(100vh - 5rem);
+  }
+
+  .hero__background {
+    background-size: cover;
+    background-image: url("../../../../../images/hero2Tablet.webp");
+    width: 182.5rem;
   }
 
   .hero__team {
     padding-top: 25.6rem;
-    padding-bottom: 2.2rem;
+    padding-bottom: 2.4rem;
   }
 
   .hero__team,
@@ -45,8 +66,12 @@
 
 @media (max-width: 576px) {
   .hero {
-    background-image: url("../../../../../images/hero2Mobile.webp");
     height: calc(100vh - 4rem);
+  }
+
+  .hero__background {
+    background-image: url("../../../../../images/hero2Tablet.webp");
+    width: 182.5rem;
   }
 
   .hero__team {
@@ -56,6 +81,7 @@
 
   .hero__team,
   .hero__team * {
+    text-wrap: balance;
     font-size: var(--font-size-14);
   }
 

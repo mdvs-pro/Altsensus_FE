@@ -147,6 +147,10 @@
     height: 11.6rem;
   }
 
+  .cooperation__item-title {
+    margin-bottom: 0.7rem;
+  }
+
   .cooperation__item-title * {
     font-size: var(--font-size-24);
   }
@@ -161,6 +165,7 @@
   .cooperation__item-annotation,
   .cooperation__item-annotation * {
     font-size: var(--font-size-12);
+    font-weight: 400;
   }
 
   .cooperation__logo-wrapper {
@@ -172,5 +177,10 @@
   .cooperation__item-circle-wrapper {
     width: 4rem;
     height: 4rem;
+  }
+
+  .cooperation__item--right {
+    padding-right: 0;
+    padding-left: 4.7rem;
   }
 }

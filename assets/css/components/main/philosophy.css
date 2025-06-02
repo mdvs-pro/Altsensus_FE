@@ -1,7 +1,20 @@
+:root {
+  --philosophy-margin-top: 12.6rem;
+  --philosophy-card-margin-bottom: 11rem;
+  --philosophy-animation-top: 50%;
+  --philosophy-card-padding: 4rem;
+  --philosophy-card-image-margin: 3rem;
+  --philosophy-card-text-margin: 3.5rem;
+  --philosophy-logo-size: 5rem;
+  --philosophy-border-radius: 2.5rem;
+  --philosophy-image-border-radius: 2.2rem;
+  --philosophy-box-shadow: -0.5rem 0.8rem 1.3rem 0rem rgba(0, 0, 0, 0.2);
+}
+
 .philosophy__card-wrapper {
   position: relative;
   z-index: 2;
-  margin-top: 12.6rem;
+  margin-top: var(--philosophy-margin-top);
 }
 
 .philosophy .container {
@@ -10,16 +23,18 @@
 
 .philosophy__animation-wrapper {
   position: absolute;
-  top: 50%;
+  top: var(--philosophy-animation-top);
   left: 0%;
-
   transform: translateY(-50%);
   width: 50%;
+  user-select: none;
 }
 
 @media (max-width: 575px) {
+  :root {
+    --philosophy-animation-top: 5rem;
+  }
   .philosophy__animation-wrapper {
-    top: 5rem;
     width: 100%;
   }
 }
@@ -35,7 +50,7 @@
 
 @media (max-width: 575px) {
   .philosophy__animation-wrapper--second {
-    top: calc(100% - 5rem);
+    top: calc(100% - var(--philosophy-animation-top));
     left: 0;
   }
 
@@ -61,24 +76,24 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  margin-bottom: 11rem;
-  box-shadow: -0.5rem 0.8rem 1.3rem 0rem rgba(0, 0, 0, 0.2);
-  border-radius: 2.5rem;
-
+  margin-bottom: var(--philosophy-card-margin-bottom);
+  box-shadow: var(--philosophy-box-shadow);
+  border-radius: var(--philosophy-border-radius);
   background-color: var(--primary-color);
-
-  padding: 4rem;
+  padding: var(--philosophy-card-padding);
 }
 
 @media (max-width: 991px) {
-  .philosophy__card {
-    padding: 1.8rem 2rem;
+  :root {
+    --philosophy-card-padding: 1.8rem 2rem;
+    --philosophy-card-text-margin: 0;
+    --philosophy-logo-size: 2.6rem;
   }
 }
 
 @media (max-width: 575px) {
-  .philosophy__card {
-    padding: 1.65rem 1.8rem;
+  :root {
+    --philosophy-card-padding: 1.65rem 1.8rem;
   }
 }
 
@@ -87,8 +102,8 @@
   top: 50%;
   left: 50%;
   z-index: -1;
-  box-shadow: -0.5rem 0.8rem 1.3rem 0rem rgba(0, 0, 0, 0.2);
-  border-radius: 2.5rem;
+  box-shadow: var(--philosophy-box-shadow);
+  border-radius: var(--philosophy-border-radius);
   width: 100%;
   height: 100%;
 }
@@ -105,12 +120,12 @@
 
 .philosophy__card-image {
   flex: 0 0 auto;
-  margin-bottom: 3rem;
+  margin-bottom: var(--philosophy-card-image-margin);
   height: auto;
 }
 
 .philosophy__card-image img {
-  border-radius: 2.2rem;
+  border-radius: var(--philosophy-image-border-radius);
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -118,8 +133,26 @@
 
 .philosophy__card-text {
   flex: 0 1 auto;
-  margin-bottom: 3.5rem;
+  margin-bottom: var(--philosophy-card-text-margin);
   max-width: 100%;
+}
+
+.philosophy__card-text,
+.philosophy__card-text * {
+  font-size: 2rem;
+}
+
+@media (max-width: 991px) {
+  .philosophy__card-text,
+  .philosophy__card-text * {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 575px) {
+  .philosophy__card-text,
+  .philosophy__card-text * {
+    font-size: 1.2rem;
+  }
 }
 
 .philosophy__card-logo {
@@ -128,17 +161,6 @@
 }
 
 .philosophy__card-logo img {
-  width: 5rem;
-  height: 5rem;
-}
-
-@media (max-width: 991px) {
-  .philosophy__card-text {
-    margin-bottom: 0;
-  }
-
-  .philosophy__card-logo img {
-    width: 2.6rem;
-    height: 2.6rem;
-  }
+  width: var(--philosophy-logo-size);
+  height: var(--philosophy-logo-size);
 }
