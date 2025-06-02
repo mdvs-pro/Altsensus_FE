@@ -51,7 +51,9 @@
               <img src="images/logo.png" alt="Logo" />
             </a>
           </div>
-          <nav class="header__nav col-lg-6 mobileHidden tabletHidden">
+          <nav
+            class="header__nav offset-lg-2 col-lg-4 mobileHidden tabletHidden"
+          >
             <ul>
               <li><a href="#copytrading">Наше рішення</a></li>
               <li><a href="#collaboration">Процес</a></li>
@@ -59,8 +61,18 @@
               <li><a href="#whyUs">Команда</a></li>
             </ul>
           </nav>
-          <div class="header__button-wrapper btn mobileHidden tabletHidden">
-            <a href="#formBlock">Контакти</a>
+          <div class="header__right-sight offset-lg-1 col-lg-3">
+            <div class="header__language-swapper mobileHidden tabletHidden">
+              <div class="header__language-item active">
+                <a href="">Укр</a>
+              </div>
+              <div class="header__language-item">
+                <a href="">Eng</a>
+              </div>
+            </div>
+            <div class="header__button-wrapper btn mobileHidden tabletHidden">
+              <a href="#formBlock">Контакти</a>
+            </div>
           </div>
           <div class="header__burger-button">
             <button id="burgerButton">
@@ -80,14 +92,15 @@
               <li><a href="#cooperation">Співпраця</a></li>
               <li><a href="#whyUs">Команда</a></li>
             </ul>
-            <div class="lang-switcher">
-              <div class="lang-switcher__buttons">
-                <button class="lang-switcher__button active">Укр</button>
-                <button class="lang-switcher__button">Eng</button>
-              </div>
-              <div class="lang-switcher__counter">130 : 20</div>
-            </div>
           </nav>
+          <div class="header__language-swapper">
+            <div class="header__language-item active">
+              <a href="">Укр</a>
+            </div>
+            <div class="header__language-item">
+              <a href="">Eng</a>
+            </div>
+          </div>
         </div>
       </div>
     </header>

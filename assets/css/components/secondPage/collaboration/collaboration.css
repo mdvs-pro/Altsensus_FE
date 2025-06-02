@@ -83,6 +83,15 @@
     padding-bottom: 3.3rem;
   }
 
+  .collaboration__animation-container {
+    height: 2.5rem;
+    padding: 0.3rem 0;
+  }
+
+    .collaboration__animation-container * {
+      font-size: var(--font-size-16);
+    }
+
   .collaboration__title {
     padding-top: 4.5rem;
   }
