@@ -1,4 +1,6 @@
 @import url("./variables.css");
+@import url("./fonts-graphik.css");
+@import url("./fonts-general-sans.css");
 @import url("./components/header.css");
 @import url("./grid.css");
 @import url("./normalize.css");
@@ -8,29 +10,6 @@
 @import url("./components/formBlock/formBlock.css");
 @import url("./components/quickContact/quickContact.css");
 @import url("./components/footer.css");
-
-/* Custom Font Declaration */
-@font-face {
-  font-style: normal;
-  font-weight: 500;
-  src: url("../fonts/graphiklcweb_medium.ttf") format("truetype");
-  font-family: "Graphik";
-  font-display: swap;
-}
-
-@font-face {
-  font-style: normal;
-  src: url("../fonts/GeneralSans-Medium.otf") format("opentype");
-  font-family: "General Sans";
-  font-display: swap;
-}
-
-@font-face {
-  font-style: italic;
-  src: url("../fonts/GeneralSans-MediumItalic.otf") format("opentype");
-  font-family: "General Sans";
-  font-display: swap;
-}
 
 html {
   scroll-behavior: smooth;

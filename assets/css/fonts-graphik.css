@@ -1,0 +1,30 @@
+/* Graphik Font Family - Desktop Versions */
+
+/* Graphik Regular */
+@font-face {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/graphik/Graphik-Regular-Desktop.otf") format("opentype");
+  font-display: swap;
+}
+
+/* Graphik Bold */
+@font-face {
+  font-family: "Graphik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/graphik/Graphik-Bold-Desktop.otf") format("opentype");
+  font-display: swap;
+}
+
+/* Utility classes for different weights */
+.graphik-regular { 
+  font-family: "Graphik", sans-serif;
+  font-weight: 400; 
+}
+
+.graphik-bold { 
+  font-family: "Graphik", sans-serif;
+  font-weight: 700; 
+} 
