@@ -319,8 +319,8 @@
 }
 
 .approach__item {
-  position: relative;
   display: flex;
+  position: relative;
   align-items: center;
   border-right: 0.1rem solid var(--border-color);
   border-left: 0.1rem solid var(--border-color);

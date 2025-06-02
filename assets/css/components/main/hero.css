@@ -150,7 +150,15 @@
 }
 
 .hero__button-wrapper {
+  justify-content: flex-start;
+  align-items: flex-start;
   margin-top: 5.8rem;
+}
+
+.hero__button-wrapper > div {
+  display: flex;
+  justify-content: flex-start;
+  width: auto;
 }
 
 @media (max-width: 991px) {
@@ -173,6 +181,19 @@
   align-items: center;
   width: 100%;
   height: 5.5rem;
+  padding: 1.8rem 2.8rem 1.8rem 3.6rem;
+}
+
+.hero__button a {
+  margin-right: 4.3rem;
+}
+
+.hero__button:hover path {
+  transition: all 0.3s ease;
+}
+
+.hero__button:hover path {
+  stroke: #fff;
 }
 
 /* HERO STORY */

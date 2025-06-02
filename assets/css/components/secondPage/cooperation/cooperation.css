@@ -164,8 +164,8 @@
   .cooperation__item-description *,
   .cooperation__item-annotation,
   .cooperation__item-annotation * {
-    font-size: var(--font-size-12);
     font-weight: 400;
+    font-size: var(--font-size-12);
   }
 
   .cooperation__logo-wrapper {

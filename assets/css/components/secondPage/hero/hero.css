@@ -43,8 +43,8 @@
   }
 
   .hero__background {
-    background-size: cover;
     background-image: url("../../../../../images/hero2Tablet.webp");
+    background-size: cover;
     width: 182.5rem;
   }
 
@@ -81,8 +81,8 @@
 
   .hero__team,
   .hero__team * {
-    text-wrap: balance;
     font-size: var(--font-size-14);
+    text-wrap: balance;
   }
 
   .hero__title,

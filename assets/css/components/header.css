@@ -76,14 +76,11 @@
   text-decoration: underline;
 }
 
-.header__button-wrapper {
-  width: 14.9rem;
-  height: 4rem;
-}
-
 .header__button-wrapper.btn {
   font-weight: bold;
   font-size: var(--font-size-16);
+    width: 14.9rem;
+  height: 4rem;
 }
 
 .header__burger-button {

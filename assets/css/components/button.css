@@ -1,5 +1,4 @@
-.btn a,
-.btn button {
+.btn{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,16 +11,29 @@
   background-color: var(--primary-color);
   width: 100%;
   height: 100%;
-  color: #fff;
+  
 }
 
-.btn:hover a,
-.btn:hover button {
+.btn a,
+.btn button {
+  background: none;
+  border: none;
+  color: #fff;
+  transition: color 0.1s ease;
+}
+
+.btn:hover {
   background-color: var(--accent-color);
-  color: #fff;
+}
+.btn--border {
+  border: 0.1rem solid #ededed;
 }
 
-.btn--border a,
-.btn--border button {
-  border: 0.1rem solid #ededed;
+.btn--white-hover:hover  {
+  background-color: #fff;
+}
+
+.btn--white-hover:hover a,
+.btn--white-hover:hover button {
+  color: var(--primary-color);
 }
