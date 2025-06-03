@@ -37,6 +37,12 @@
   font-size: var(--font-size-50);
 }
 
+@media (min-width: 1921px) {
+  .hero__team {
+    padding-top: 20rem;
+  }
+}
+
 @media (max-width: 991px) {
   .hero {
     height: calc(100vh - 5rem);
