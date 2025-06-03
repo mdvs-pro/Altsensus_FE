@@ -1,7 +1,3 @@
-.approach {
-  overflow: hidden;
-}
-
 .approach__header {
   background-color: var(--primary-color);
   padding: 5rem 0;
@@ -12,6 +8,9 @@
 }
 
 @media (max-width: 575px) {
+  .approach {
+    /* margin-bottom: 3rem; */
+  }
   .approach__header .container {
     padding-right: 2rem;
     padding-left: 2rem;
@@ -83,10 +82,6 @@
   margin-top: 10rem;
   margin-bottom: 5rem;
 }
-.approach__content-title {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
 
 .approach__content-title h3 {
   margin: 0;
@@ -94,6 +89,10 @@
 }
 
 @media (max-width: 575px) {
+  .approach__content-title {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
   .approach__invest-process-wrapper {
     display: flex;
   }
@@ -511,7 +510,7 @@
   .approach__item-circle {
     top: calc(100% - 3rem);
     left: 100%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, calc(-50% + 0.1rem));
     z-index: 5;
     width: 3.9rem;
     height: 3.9rem;

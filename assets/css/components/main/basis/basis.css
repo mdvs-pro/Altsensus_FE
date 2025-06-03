@@ -1,3 +1,7 @@
+.basis {
+  overflow: hidden;
+}
+
 .basis__container {
   padding-top: 10rem;
 }
