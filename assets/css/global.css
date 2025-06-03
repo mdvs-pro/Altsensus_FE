@@ -18,7 +18,7 @@ html {
   font-size: 62.5%;
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1921px) {
   html {
     font-size: 0.55vw;
   }

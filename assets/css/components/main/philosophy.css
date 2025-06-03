@@ -11,6 +11,44 @@
   --philosophy-box-shadow: -0.5rem 0.8rem 1.3rem 0rem rgba(0, 0, 0, 0.2);
 }
 
+.philosophy {
+  position: relative;
+}
+
+.philosophy__desktop-animation {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 5rem;
+  overflow: hidden;
+}
+
+.philosophy__desktop-animation-wrapper {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  width: 100%;
+  user-select: none;
+}
+
+.philosophy__desktop-animation-wrapper > div {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.philosophy__desktop-animation-wrapper--1 {
+  left: -100%;
+  animation: slideIn 20s infinite linear;
+}
+
+.philosophy__desktop-animation-wrapper--2 {
+  left: 0;
+  animation: slideOut 20s infinite linear;
+}
+
 .philosophy__card-wrapper {
   position: relative;
   z-index: 2;
